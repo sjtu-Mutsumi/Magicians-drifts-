@@ -1,0 +1,170 @@
+{
+  "version": "1.2",
+  "element": "fire",
+  "status": "confirmed-naming-only",
+  "card_count": 31,
+  "renamed_count": 24,
+  "latest_confirmed_changes": {
+    "长明焰": "拾火",
+    "燎原": "星火燎原",
+    "真火": "火毒",
+    "熔盾烈焰": "高温炼化"
+  },
+  "cards": {
+    "炽焰王冠": {
+      "original_name": "炽焰王冠",
+      "display_name": "聚烬成焰",
+      "rarity": "specialization"
+    },
+    "余烬之核": {
+      "original_name": "余烬之核",
+      "display_name": "身为洪炉",
+      "rarity": "legendary"
+    },
+    "灰烬循环": {
+      "original_name": "灰烬循环",
+      "display_name": "灰烬循环",
+      "rarity": "legendary"
+    },
+    "燃烧血统": {
+      "original_name": "燃烧血统",
+      "display_name": "焚天神兵",
+      "rarity": "legendary"
+    },
+    "燎原": {
+      "original_name": "燎原",
+      "display_name": "星火燎原",
+      "rarity": "legendary"
+    },
+    "不灭烈焰": {
+      "original_name": "不灭烈焰",
+      "display_name": "拾火",
+      "rarity": "epic"
+    },
+    "余烬引擎": {
+      "original_name": "余烬引擎",
+      "display_name": "回炉重造",
+      "rarity": "epic"
+    },
+    "余烬心脏": {
+      "original_name": "余烬心脏",
+      "display_name": "烬中搏动",
+      "rarity": "epic"
+    },
+    "压缩爆燃": {
+      "original_name": "压缩爆燃",
+      "display_name": "聚爆",
+      "rarity": "epic"
+    },
+    "灰烬重生": {
+      "original_name": "灰烬重生",
+      "display_name": "拨灰续火",
+      "rarity": "epic"
+    },
+    "焚心": {
+      "original_name": "焚心",
+      "display_name": "吞烬",
+      "rarity": "epic"
+    },
+    "爆燃": {
+      "original_name": "爆燃",
+      "display_name": "炽焰",
+      "rarity": "epic"
+    },
+    "狂暴": {
+      "original_name": "狂暴",
+      "display_name": "怒焰",
+      "rarity": "epic"
+    },
+    "熔盾烈焰": {
+      "original_name": "熔盾烈焰",
+      "display_name": "高温炼化",
+      "rarity": "epic"
+    },
+    "余火": {
+      "original_name": "余火",
+      "display_name": "添柴",
+      "rarity": "rare"
+    },
+    "余烬刻度": {
+      "original_name": "余烬刻度",
+      "display_name": "试我火候",
+      "rarity": "rare"
+    },
+    "余烬护心": {
+      "original_name": "余烬护心",
+      "display_name": "余温护心",
+      "rarity": "rare"
+    },
+    "回火": {
+      "original_name": "回火",
+      "display_name": "回灶",
+      "rarity": "rare"
+    },
+    "导火索": {
+      "original_name": "导火索",
+      "display_name": "导火索",
+      "rarity": "rare"
+    },
+    "战意": {
+      "original_name": "战意",
+      "display_name": "火势",
+      "rarity": "rare"
+    },
+    "火种库": {
+      "original_name": "火种库",
+      "display_name": "火种书签",
+      "rarity": "rare"
+    },
+    "灰烬账本": {
+      "original_name": "灰烬账本",
+      "display_name": "灰烬账本",
+      "rarity": "rare"
+    },
+    "烈焰附身": {
+      "original_name": "烈焰附身",
+      "display_name": "火毒",
+      "rarity": "rare"
+    },
+    "燃血": {
+      "original_name": "燃血",
+      "display_name": "燃血",
+      "rarity": "rare"
+    },
+    "高温炉心": {
+      "original_name": "高温炉心",
+      "display_name": "高温炉芯",
+      "rarity": "rare"
+    },
+    "火种翻找": {
+      "original_name": "火种翻找",
+      "display_name": "逐火",
+      "rarity": "common"
+    },
+    "火花": {
+      "original_name": "火花",
+      "display_name": "火花",
+      "rarity": "common"
+    },
+    "烈焰冲刺": {
+      "original_name": "烈焰冲刺",
+      "display_name": "催火",
+      "rarity": "common"
+    },
+    "猛火弹": {
+      "original_name": "猛火弹",
+      "display_name": "猛火弹",
+      "rarity": "common"
+    },
+    "引火": {
+      "original_name": "引火",
+      "display_name": "指尖火苗",
+      "rarity": "common"
+    },
+    "燃页": {
+      "original_name": "燃页",
+      "display_name": "燃页",
+      "rarity": "common"
+    }
+  }
+}

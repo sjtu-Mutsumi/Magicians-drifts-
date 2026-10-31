@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "status": "accepted",
+  "date": "2026-10-30",
+  "platform": "windows-x86_64",
+  "package": "Magicians-v1.2-Windows-20261030.zip",
+  "sha256": "2cd39f6a2a0e9ebb7836730f7840a5f8cb6faf988e4bf3e95930e02f69611bdb",
+  "size_bytes": 84604201,
+  "entry_point": "Magicians.exe",
+  "python": "bundled 3.12.10",
+  "cards": 183,
+  "stock": 677,
+  "models": "ai-v1.2-six-styles-20261029",
+  "supersedes": [
+    "1.0",
+    "1.1"
+  ],
+  "historical_archive": {
+    "source_archive": "project-before-v1.2-promotion-20261030.zip",
+    "source_sha256": "8b52b5cbe82a4aacee2585519418879465f2f911e80e0609377d4b5ae2a09583",
+    "location": "D:/Magicians!/_history",
+    "installer_archive": "obsolete-installers-20261030.zip"
+  }
+}

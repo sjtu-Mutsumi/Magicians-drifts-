@@ -1,0 +1,62 @@
+{
+  "kind": "explorer",
+  "checkpoint": "six-water-accepted-04",
+  "weights": {
+    "panel": 0.446776,
+    "layer": 3.197094,
+    "draw": 3.26441,
+    "fee": 5.553997,
+    "search": 1.494357,
+    "recycle": 1.589355,
+    "discard": 0.642321,
+    "future": 1.543803,
+    "passive": 2.871918,
+    "tempo": 1.688549,
+    "protection": 1.251201,
+    "thinning": 0.696959,
+    "lookahead": 0.992353
+  },
+  "construction": {
+    "dilution": 1.239923,
+    "buy_margin": 0.417886,
+    "point_cost": 0.335853,
+    "delete_margin": 0.409936,
+    "starter_bias": 1.174197,
+    "core_weight": 2.813189,
+    "first_layer": 5.136631,
+    "generic_tax": 1.163636,
+    "flow_scale": 0.637445
+  },
+  "element_weights": {
+    "fire": {
+      "layer": 1.259931,
+      "recycle": 0.99976,
+      "protection": 1.006822
+    },
+    "water": {
+      "layer": 1.25023,
+      "recycle": 0.896018,
+      "protection": 1.050998
+    },
+    "earth": {
+      "layer": 1.181675,
+      "recycle": 0.903555,
+      "protection": 1.089835
+    },
+    "wind": {
+      "layer": 1.006319,
+      "recycle": 0.980967,
+      "protection": 0.928134
+    },
+    "poison": {
+      "layer": 1.032608,
+      "recycle": 1.007642,
+      "protection": 0.963516
+    }
+  },
+  "element_intent": "water",
+  "size_exploration": {
+    "bonus": 0.0,
+    "ceiling": 16
+  }
+}

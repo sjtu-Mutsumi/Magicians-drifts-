@@ -1,0 +1,161 @@
+{
+  "version": "1.2",
+  "element": "earth",
+  "status": "confirmed-naming-only",
+  "source_commit": "30bd6bd652dac4cf9d92f0855dfd7ad6218345e7",
+  "card_count": 30,
+  "renamed_count": 26,
+  "note": "键及original_name保留稳定运行标识；display_name仅供展示。临时壁垒最终定名沙堡。保留壁垒、碎盾、普通护盾与临时护盾等机制术语；不修改数值、效果或AI。",
+  "cards": {
+    "不周山": {
+      "original_name": "不周山",
+      "display_name": "不周山",
+      "rarity": "specialization"
+    },
+    "反震岩核": {
+      "original_name": "反震岩核",
+      "display_name": "破而后立",
+      "rarity": "legendary"
+    },
+    "壁垒之心": {
+      "original_name": "壁垒之心",
+      "display_name": "以守为攻",
+      "rarity": "legendary"
+    },
+    "大地之握": {
+      "original_name": "大地之握",
+      "display_name": "聚砾成锋",
+      "rarity": "legendary"
+    },
+    "山崩": {
+      "original_name": "山崩",
+      "display_name": "重峦叠嶂",
+      "rarity": "legendary"
+    },
+    "万钧碎盾": {
+      "original_name": "万钧碎盾",
+      "display_name": "万钧碎盾",
+      "rarity": "epic"
+    },
+    "不坏壁垒": {
+      "original_name": "不坏壁垒",
+      "display_name": "固若金汤",
+      "rarity": "epic"
+    },
+    "回震岩甲": {
+      "original_name": "回震岩甲",
+      "display_name": "屡毁屡筑",
+      "rarity": "epic"
+    },
+    "山岳之躯": {
+      "original_name": "山岳之躯",
+      "display_name": "卸甲养伤",
+      "rarity": "epic"
+    },
+    "山岳壁垒": {
+      "original_name": "山岳壁垒",
+      "display_name": "步步为营",
+      "rarity": "epic"
+    },
+    "岩核重压": {
+      "original_name": "岩核重压",
+      "display_name": "挟山一击",
+      "rarity": "epic"
+    },
+    "岩潮壁垒": {
+      "original_name": "岩潮壁垒",
+      "display_name": "流沙成岩",
+      "rarity": "epic"
+    },
+    "层岩结构": {
+      "original_name": "层岩结构",
+      "display_name": "积土成山",
+      "rarity": "epic"
+    },
+    "临时壁垒": {
+      "original_name": "临时壁垒",
+      "display_name": "沙堡",
+      "rarity": "rare"
+    },
+    "回岩": {
+      "original_name": "回岩",
+      "display_name": "补墙",
+      "rarity": "rare"
+    },
+    "守岩": {
+      "original_name": "守岩",
+      "display_name": "固守",
+      "rarity": "rare"
+    },
+    "山岳": {
+      "original_name": "山岳",
+      "display_name": "平地起垒",
+      "rarity": "rare"
+    },
+    "岩拳": {
+      "original_name": "岩拳",
+      "display_name": "铺路",
+      "rarity": "rare"
+    },
+    "岩核共鸣": {
+      "original_name": "岩核共鸣",
+      "display_name": "问山",
+      "rarity": "rare"
+    },
+    "握盾": {
+      "original_name": "握盾",
+      "display_name": "碎石借势",
+      "rarity": "rare"
+    },
+    "盾脉": {
+      "original_name": "盾脉",
+      "display_name": "夯实",
+      "rarity": "rare"
+    },
+    "碎岩印记": {
+      "original_name": "碎岩印记",
+      "display_name": "碎岩印记",
+      "rarity": "rare"
+    },
+    "碎盾术": {
+      "original_name": "碎盾术",
+      "display_name": "碎盾术",
+      "rarity": "rare"
+    },
+    "磐岩壁": {
+      "original_name": "磐岩壁",
+      "display_name": "倚石养息",
+      "rarity": "rare"
+    },
+    "裂岩护壁": {
+      "original_name": "裂岩护壁",
+      "display_name": "砺石",
+      "rarity": "rare"
+    },
+    "坚岩": {
+      "original_name": "坚岩",
+      "display_name": "垒土",
+      "rarity": "common"
+    },
+    "寻岩": {
+      "original_name": "寻岩",
+      "display_name": "探脉",
+      "rarity": "common"
+    },
+    "岩甲": {
+      "original_name": "岩甲",
+      "display_name": "披坚",
+      "rarity": "common"
+    },
+    "磐石": {
+      "original_name": "磐石",
+      "display_name": "压阵",
+      "rarity": "common"
+    },
+    "开岩": {
+      "original_name": "开岩",
+      "display_name": "凿石",
+      "rarity": "common"
+    }
+  }
+}

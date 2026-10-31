@@ -1,0 +1,43 @@
+{
+  "version": "1.2",
+  "element": "poison",
+  "status": "user-confirmed",
+  "scope": [
+    "legendary",
+    "specialization"
+  ],
+  "display_in_match": false,
+  "note": "保留稳定运行卡标识，定稿小字仅供后续卡牌特写使用；不修改技能文字、规则数据或局内展示。",
+  "cards": {
+    "毒爆": {
+      "original_name": "毒爆",
+      "display_name": "以毒淬锋",
+      "rarity": "legendary",
+      "flavor_text": "铸剑师最后用解药洗过剑锋，轻轻一试，传了三代的铁砧便沿着旧刻痕分成两半。"
+    },
+    "瘟潮": {
+      "original_name": "瘟潮",
+      "display_name": "瘟疫之潮",
+      "rarity": "legendary",
+      "flavor_text": "第一道封城令还没送出山口，远处的村落便已挂满苦艾。风吹过时，没有一扇门开。"
+    },
+    "蚀命": {
+      "original_name": "蚀命",
+      "display_name": "蚕食生机",
+      "rarity": "legendary",
+      "flavor_text": "花匠年年给藤换土，御医年年给国王换药。藤爬满了穹顶，王袍却一天比一天宽。"
+    },
+    "蚀骨": {
+      "original_name": "蚀骨",
+      "display_name": "附骨之毒",
+      "rarity": "legendary",
+      "flavor_text": "御医在医案末尾写下“已愈”。百年后，盗墓贼打开棺盖，骸骨上那一线青紫，却仍不肯褪色。"
+    },
+    "万毒之源": {
+      "original_name": "万毒之源",
+      "display_name": "瘟疫领主",
+      "rarity": "specialization",
+      "flavor_text": "他仍提着行医时的旧药箱。只是如今每到一座城，先来迎他的，总是持印的人。"
+    }
+  }
+}

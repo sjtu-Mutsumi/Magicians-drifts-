@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "seeds": 2,
+  "rounds": 24,
+  "players": 4,
+  "comparisons": "schedules, all rarity templates/offers/refreshes, exact purchases/deletions, specialization events, inventories, next RNG outputs"
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.2",
+  "element": "wind",
+  "status": "user-confirmed",
+  "scope": [
+    "legendary",
+    "specialization"
+  ],
+  "display_in_match": false,
+  "note": "保留稳定运行卡标识，定稿小字仅供后续卡牌特写使用；不修改技能文字、规则数据或局内展示。",
+  "cards": {
+    "疾风之刃": {
+      "original_name": "疾风之刃",
+      "display_name": "长风不息",
+      "rarity": "legendary",
+      "flavor_text": "风一直往前，走了很久很久，又回到了起点。"
+    },
+    "穿云箭": {
+      "original_name": "穿云箭",
+      "display_name": "穿云破阵",
+      "rarity": "legendary",
+      "flavor_text": "穿尽重云，凌空而立，方见天光。"
+    },
+    "风痕": {
+      "original_name": "风痕",
+      "display_name": "积风成灾",
+      "rarity": "legendary",
+      "flavor_text": "每一缕风都轻得像叹息。等它们一同开口，整片山林便低下了头。"
+    },
+    "飓风": {
+      "original_name": "飓风",
+      "display_name": "大风起兮",
+      "rarity": "legendary",
+      "flavor_text": "大风起兮云飞扬，威震海内兮归故乡。"
+    },
+    "天岚": {
+      "original_name": "天岚",
+      "display_name": "天岚",
+      "rarity": "specialization",
+      "flavor_text": "脚下已无寸土，他却从未站得这样稳。"
+    }
+  }
+}

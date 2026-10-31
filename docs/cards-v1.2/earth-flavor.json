@@ -1,0 +1,43 @@
+{
+  "version": "1.2",
+  "element": "earth",
+  "status": "user-confirmed",
+  "scope": [
+    "legendary",
+    "specialization"
+  ],
+  "display_in_match": false,
+  "note": "保留稳定运行卡标识，定稿小字仅供后续卡牌特写使用；不修改技能文字、规则数据或局内展示。",
+  "cards": {
+    "反震岩核": {
+      "original_name": "反震岩核",
+      "display_name": "破而后立",
+      "rarity": "legendary",
+      "flavor_text": "新城的基石取自旧城废墟。城墙崩裂时，最先重新站起来的，总是那些旧石。"
+    },
+    "壁垒之心": {
+      "original_name": "壁垒之心",
+      "display_name": "以守为攻",
+      "rarity": "legendary",
+      "flavor_text": "老将军把剑留给了儿子，只带走那面旧盾。后来，关外的人提起他，仍称他为剑客。"
+    },
+    "大地之握": {
+      "original_name": "大地之握",
+      "display_name": "聚砾成锋",
+      "rarity": "legendary",
+      "flavor_text": "他将空剑鞘插进尘土。历代断盾的碎屑沿鞘口升起，拔出的剑锋上，仍能辨出先人的纹章。"
+    },
+    "山崩": {
+      "original_name": "山崩",
+      "display_name": "重峦叠嶂",
+      "rarity": "legendary",
+      "flavor_text": "将军问还有几道山。探子张了张嘴，远处又升起了一道。"
+    },
+    "不周山": {
+      "original_name": "不周山",
+      "display_name": "不周山",
+      "rarity": "specialization",
+      "flavor_text": "他等最后一人走出山口，才松开撑山的手。追兵抬头时，整座山已向他们倾来。"
+    }
+  }
+}

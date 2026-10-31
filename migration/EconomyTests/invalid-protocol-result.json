@@ -1,0 +1,326 @@
+{
+  "status": "passed",
+  "requests": 27,
+  "seed": 334003,
+  "checks": [
+    {
+      "label": "start",
+      "command": {
+        "op": "start",
+        "seed": 334003
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": null,
+      "revision": 1
+    },
+    {
+      "label": "unfinished-review",
+      "command": {
+        "op": "review",
+        "round": 1
+      },
+      "status": "error",
+      "decision": null,
+      "error": "Round has not finished",
+      "revision": null
+    },
+    {
+      "label": "invalid-slot-100",
+      "command": {
+        "kind": "buy",
+        "slot": 100,
+        "revision": 1
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": "Unavailable or unaffordable offer",
+      "revision": 2
+    },
+    {
+      "label": "stale-revision",
+      "command": {
+        "kind": "end_face",
+        "revision": 1
+      },
+      "status": "error",
+      "decision": null,
+      "error": "Stale match revision; reload the current decision",
+      "revision": null
+    },
+    {
+      "label": "free-purchase-after-stale",
+      "command": {
+        "kind": "buy",
+        "slot": 1,
+        "revision": 2
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": null,
+      "revision": 3
+    },
+    {
+      "label": "repeat-purchased-slot",
+      "command": {
+        "kind": "buy",
+        "slot": 1,
+        "revision": 3
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": "Unavailable or unaffordable offer",
+      "revision": 4
+    },
+    {
+      "label": "paid-purchase",
+      "command": {
+        "kind": "buy",
+        "slot": 2,
+        "revision": 4
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": null,
+      "revision": 5
+    },
+    {
+      "label": "unknown-kind-in-draft",
+      "command": {
+        "kind": "invented_command",
+        "revision": 5
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": "Expected purchase, deletion or end_face",
+      "revision": 6
+    },
+    {
+      "label": "end-first-face",
+      "command": {
+        "kind": "end_face",
+        "revision": 6
+      },
+      "status": "decision",
+      "decision": "refresh",
+      "error": null,
+      "revision": 7
+    },
+    {
+      "label": "one-point-refresh",
+      "command": {
+        "kind": "refresh",
+        "revision": 7
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": null,
+      "revision": 8
+    },
+    {
+      "label": "invalid-buy-after-refresh",
+      "command": {
+        "kind": "buy",
+        "slot": 100,
+        "revision": 8
+      },
+      "status": "decision",
+      "decision": "draft",
+      "error": "Unavailable or unaffordable offer",
+      "revision": 9
+    },
+    {
+      "label": "end-second-face",
+      "command": {
+        "kind": "end_face",
+        "revision": 9
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 10
+    },
+    {
+      "label": "foreign-uid-play",
+      "command": {
+        "kind": "play",
+        "uid": "1:0",
+        "revision": 10
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": "Unavailable or unaffordable card",
+      "revision": 11
+    },
+    {
+      "label": "stale-play-revision",
+      "command": {
+        "kind": "play",
+        "uid": null,
+        "revision": 10
+      },
+      "status": "error",
+      "decision": null,
+      "error": "Stale match revision; reload the current decision",
+      "revision": null
+    },
+    {
+      "label": "manual-play-0",
+      "command": {
+        "kind": "play",
+        "uid": "0:2",
+        "revision": 11
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 12
+    },
+    {
+      "label": "manual-play-1",
+      "command": {
+        "kind": "play",
+        "uid": "0:0",
+        "revision": 12
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 13
+    },
+    {
+      "label": "manual-play-2",
+      "command": {
+        "kind": "play",
+        "uid": "0:6",
+        "revision": 13
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 14
+    },
+    {
+      "label": "manual-play-3",
+      "command": {
+        "kind": "play",
+        "uid": null,
+        "revision": 14
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 15
+    },
+    {
+      "label": "manual-play-4",
+      "command": {
+        "kind": "play",
+        "uid": "0:5",
+        "revision": 15
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 16
+    },
+    {
+      "label": "manual-play-5",
+      "command": {
+        "kind": "play",
+        "uid": "0:4",
+        "revision": 16
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 17
+    },
+    {
+      "label": "manual-play-6",
+      "command": {
+        "kind": "play",
+        "uid": "0:1",
+        "revision": 17
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 18
+    },
+    {
+      "label": "manual-play-7",
+      "command": {
+        "kind": "play",
+        "uid": "0:8",
+        "revision": 18
+      },
+      "status": "decision",
+      "decision": "select",
+      "error": null,
+      "revision": 19
+    },
+    {
+      "label": "foreign-uid-selection",
+      "command": {
+        "kind": "select",
+        "uids": [
+          "1:0"
+        ],
+        "revision": 19
+      },
+      "status": "decision",
+      "decision": "select",
+      "error": "Invalid selection targets",
+      "revision": 20
+    },
+    {
+      "label": "valid-selection-after-rejection",
+      "command": {
+        "kind": "select",
+        "uids": [
+          "0:7"
+        ],
+        "revision": 20
+      },
+      "status": "decision",
+      "decision": "play",
+      "error": null,
+      "revision": 21
+    },
+    {
+      "label": "finish-after-invalid-inputs",
+      "command": {
+        "kind": "delegate_match",
+        "revision": 21
+      },
+      "status": "finished",
+      "decision": null,
+      "error": null,
+      "revision": 22
+    },
+    {
+      "label": "review-after-finish",
+      "command": {
+        "op": "review",
+        "round": 1
+      },
+      "status": "review",
+      "decision": null,
+      "error": null,
+      "revision": 22
+    },
+    {
+      "label": "command-after-finish",
+      "command": {
+        "kind": "play",
+        "uid": null,
+        "revision": 22
+      },
+      "status": "error",
+      "decision": null,
+      "error": "Match has finished",
+      "revision": null
+    }
+  ]
+}

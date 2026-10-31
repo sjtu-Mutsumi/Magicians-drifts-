@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "package": "Magicians-v1.2-CSharp-20261031",
+  "integrity_entries": 245,
+  "files": 246,
+  "python_files": [],
+  "python_call_or_stub_scan": [],
+  "runtime": "native-csharp",
+  "python_required": false,
+  "cards": 183,
+  "stock": 677,
+  "models": 6,
+  "renamed_cards": 103,
+  "preserved_hidden_flavor_cards": 20,
+  "source_presentation_or_card_ui_changes": [],
+  "original_playable_version_exists": true,
+  "rule_and_display_data_equal_to_source": true
+}

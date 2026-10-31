@@ -1,0 +1,138 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Presentation/CardView.cs" id="1_card"]
+
+[sub_resource type="StyleBoxFlat" id="CardFrame"]
+bg_color = Color(0.125, 0.153, 0.204, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.32, 0.38, 0.46, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_left = 10
+corner_radius_bottom_right = 10
+
+[node name="CardView" type="PanelContainer"]
+custom_minimum_size = Vector2(200, 324)
+size_flags_horizontal = 3
+script = ExtResource("1_card")
+theme_override_styles/panel = SubResource("CardFrame")
+
+[node name="Margin" type="MarginContainer" parent="."]
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Column" type="VBoxContainer" parent="Margin"]
+theme_override_constants/separation = 5
+
+[node name="Header" type="HBoxContainer" parent="Margin/Column"]
+
+[node name="Element" type="Label" parent="Margin/Column/Header"]
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 18
+
+[node name="Cost" type="Label" parent="Margin/Column/Header"]
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 2
+
+[node name="Title" type="Label" parent="Margin/Column"]
+theme_override_font_sizes/font_size = 24
+autowrap_mode = 3
+horizontal_alignment = 1
+text = "卡牌名称"
+
+[node name="Metadata" type="Label" parent="Margin/Column"]
+autowrap_mode = 3
+text = "元素：通用    稀有度：普通"
+visible = false
+
+[node name="Art" type="ColorRect" parent="Margin/Column"]
+custom_minimum_size = Vector2(0, 56)
+color = Color(0.27, 0.29, 0.34, 1)
+
+[node name="Illustration" type="TextureRect" parent="Margin/Column/Art"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Frame" type="TextureRect" parent="Margin/Column/Art"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+expand_mode = 1
+stretch_mode = 0
+mouse_filter = 2
+
+[node name="ElementIcon" type="TextureRect" parent="Margin/Column/Art"]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 40.0
+offset_bottom = 40.0
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Placeholder" type="Label" parent="Margin/Column/Art"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+horizontal_alignment = 1
+vertical_alignment = 1
+text = "卡面插画预留区"
+mouse_filter = 2
+
+[node name="Details" type="ScrollContainer" parent="Margin/Column"]
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Text" type="VBoxContainer" parent="Margin/Column/Details"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="Enchantment" type="Label" parent="Margin/Column/Details/Text"]
+theme_override_font_sizes/font_size = 20
+autowrap_mode = 3
+
+[node name="Rules" type="Label" parent="Margin/Column/Details/Text"]
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+text = "完整牌面效果"
+
+[node name="RuleNotes" type="Label" parent="Margin/Column/Details/Text"]
+theme_override_font_sizes/font_size = 20
+autowrap_mode = 3
+modulate = Color(1, 0.85, 0.55, 1)
+
+[node name="StatsRarity" type="HBoxContainer" parent="Margin/Column"]
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="Attack" type="Label" parent="Margin/Column/StatsRarity"]
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+
+[node name="Rarity" type="Label" parent="Margin/Column/StatsRarity"]
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+
+[node name="Defense" type="Label" parent="Margin/Column/StatsRarity"]
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+
+[node name="Price" type="Label" parent="Margin/Column"]
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
+autowrap_mode = 3
+horizontal_alignment = 1
+
+

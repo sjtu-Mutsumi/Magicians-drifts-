@@ -1,0 +1,1364 @@
+{
+  "repository": "qqzj1071/Magicians-",
+  "branch": "main",
+  "commit": "0c0150dbeda044f06c0e31d02a157aa56c7106c8",
+  "tree": "8d6983b7258f261cf039868b12f574ee0c5ebb63",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha": "f28239ba52858394ae47b28ba1602bbd54baa833",
+      "size": 33,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitattributes",
+      "sha": "437c96a9f5e621e44507ffbad0425b403b21e7fe",
+      "size": 299,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "455ca6b9d529dd42ac553c0c20e95c74b081f16b",
+      "size": 488,
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "a580f0d73816ab0838cb8dcbbc5ed4b5141a080c",
+      "size": 1966,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/card.svg",
+      "sha": "0db3f91646a1f8ce6e79ba1b603b9d24285d2134",
+      "size": 708,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/card.svg.import",
+      "sha": "0a1871f761e427780a51a7777b5afe18c8f45a72",
+      "size": 1033,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/character_ai.svg",
+      "sha": "2c0d5a7dc0231a4248430581da11f91a409ab9e6",
+      "size": 604,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/character_ai.svg.import",
+      "sha": "2e1c087826634ac4d97ee4b57a761da12c2d09e7",
+      "size": 1057,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/character_human.svg",
+      "sha": "29292cf0ea102c61d45ac82750ab63355ffc6ee7",
+      "size": 608,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/character_human.svg.import",
+      "sha": "442f078551506c71126ebf009bc0ee66afb6e054",
+      "size": 1066,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/projectile.svg",
+      "sha": "ad942a76d8980f3c76ae4dc04c05abd93a8c4010",
+      "size": 513,
+      "mode": "100644"
+    },
+    {
+      "path": "Assets/Placeholders/projectile.svg.import",
+      "sha": "5c8a7dfca053e7f6e6246b841a82852e8d3aabd7",
+      "size": 1051,
+      "mode": "100644"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "4405ed0ed8ddf17f6841ebac6e466ef3096a2e3e",
+      "size": 396,
+      "mode": "100644"
+    },
+    {
+      "path": "Data/Presentation/card-art.json",
+      "sha": "1d24bdfb2448d0ef7bef04adb9a4a243bd501839",
+      "size": 38394,
+      "mode": "100644"
+    },
+    {
+      "path": "Data/Presentation/card-display.json",
+      "sha": "15d1d35d2691efcdcf79d347e664cb899e47f951",
+      "size": 37796,
+      "mode": "100644"
+    },
+    {
+      "path": "Magicians!.csproj",
+      "sha": "9f996f79f9665ce3cc1624535f6d933992d6b459",
+      "size": 354,
+      "mode": "100644"
+    },
+    {
+      "path": "Magicians!.sln",
+      "sha": "84d39b43452c9aec94dd46698980ab4b20a38b27",
+      "size": 1689,
+      "mode": "100644"
+    },
+    {
+      "path": "NuGet.config",
+      "sha": "ef3c18d5d142259df13a99096ac1955fe54abd1c",
+      "size": 240,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "98a4785e132dd4069b0e4e441b93434b15577077",
+      "size": 1272,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Boot/Boot.tscn",
+      "sha": "cec10a8e14d9a6e35e65f27351b5f1e998902052",
+      "size": 190,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/MainMenu/MainMenu.tscn",
+      "sha": "581722dd3c5516f38e31f5a03bba7d2c898964da",
+      "size": 314,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/MainMenuFlowRunner.tscn",
+      "sha": "688f33dd1ed7774c7d256edc4ee27e2b1c07b833",
+      "size": 189,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12CardUiRunner.tscn",
+      "sha": "c0c78cfb289911f5795c4e6232ec50d743891d0d",
+      "size": 183,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12CombatIntegrationRunner.tscn",
+      "sha": "26623fe1d2c6fac239ed594c3ed5baca09cafa4c",
+      "size": 205,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12DeletionRunner.tscn",
+      "sha": "170a944d11c0e00735f86c48e1fbb68776e4b2ee",
+      "size": 187,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12LifecycleRunner.tscn",
+      "sha": "92130841f49a979d90df1276508df29f6f857f50",
+      "size": 189,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12PackagedRunner.tscn",
+      "sha": "e245cd3a60bcd63ed58072b21fbb6916d825dcf3",
+      "size": 187,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12SelectionRunner.tscn",
+      "sha": "3ba722da410eeff9f68bfdb855937a032ffc005d",
+      "size": 189,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12SinglePlayerRunner.tscn",
+      "sha": "fa00ae9cb24d24959b44c81ab823613139957472",
+      "size": 195,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/Tests/V12TransitionRunner.tscn",
+      "sha": "9e45527523bc5d0e7651c97a499a527efdc998aa",
+      "size": 191,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/UI/CardView.tscn",
+      "sha": "0aca9b1e12540aab2f7ea6b9e1f736231a25cea8",
+      "size": 4000,
+      "mode": "100644"
+    },
+    {
+      "path": "Scenes/V12/SinglePlayer.tscn",
+      "sha": "1264d5efbcfcaeb1a45660540b05104683de2235",
+      "size": 309,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/ClientPaths.cs",
+      "sha": "b71d1d5be464e4e32cb4851b71864da572ae126c",
+      "size": 283,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/ClientPaths.cs.uid",
+      "sha": "1552f3c070dd914c5ce096e6e86add701c7eb733",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/DisplayPreferences.cs",
+      "sha": "0fa1ae945de5824d1d6ca3deb859769201824fe2",
+      "size": 2468,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/DisplayPreferences.cs.uid",
+      "sha": "13decc8220e902ad4bda26a268a88483824affe9",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/ReleaseIntegrity.cs",
+      "sha": "3a5a142ebb72fd4070fcf3cd6515d82ad1b06670",
+      "size": 1105,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/ReleaseIntegrity.cs.uid",
+      "sha": "726f64730e51f6fe58e45cf9ed58523ec152b345",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/V12CombatRuntime.cs",
+      "sha": "ee79fb211d4798200121354e43fdb458361a2653",
+      "size": 2999,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/V12CombatRuntime.cs.uid",
+      "sha": "bc90e538c1b51b9cf7353bfb8f97e90cbafb29e6",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/V12MatchRuntime.cs",
+      "sha": "8ab4013855439da50c2e80fc11040015cc888ac2",
+      "size": 3167,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Application/V12MatchRuntime.cs.uid",
+      "sha": "e16d9f6ae101e80a9bd0b1395f40b14d3714d2b3",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Core/Cards/CardDisplayNames.cs",
+      "sha": "125afdff850ebbeb48a646a505b3b9d9d1023be7",
+      "size": 1245,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Core/Cards/CardDisplayNames.cs.uid",
+      "sha": "1b0206f99a70dbecc4a43a0bf78217d6ef92a123",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Core/Cards/CardPresentationProfile.cs",
+      "sha": "94accdae9e3286dea1774f3d066a14b6e8b2e15e",
+      "size": 1275,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Core/Cards/CardPresentationProfile.cs.uid",
+      "sha": "5cf6200c72448cd6e2db9a3b31e6b18677aeb7a5",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/BootController.cs",
+      "sha": "509e8c831f7b299b282623eb966dda318d221fc0",
+      "size": 1393,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/BootController.cs.uid",
+      "sha": "6dd0ed3ffdee1d94af425d01cdb883b277fbc52d",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/CardView.cs",
+      "sha": "2011b984dd2d20da50b8ce4c5c4e49d5302c9334",
+      "size": 4579,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/CardView.cs.uid",
+      "sha": "84443472e77a76d649e1009deb8ab333b628dc0a",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/DisplaySettingsDialog.cs",
+      "sha": "94d21c35bf32670eb23401441ee542675220f716",
+      "size": 2211,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/DisplaySettingsDialog.cs.uid",
+      "sha": "355ba41db79e4fde9c708609c985dc8e28dcda88",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/MainMenuController.cs",
+      "sha": "d99007cca2c59f58081921f62f11d02f44480fb3",
+      "size": 2320,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/MainMenuController.cs.uid",
+      "sha": "0787d291185b2d132c0d71c3cf005f1e319161b1",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/V12CardPresentation.cs",
+      "sha": "cbf7d5fd0c5fcd78ec8594f9f457a887dabd6701",
+      "size": 5730,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/V12CardPresentation.cs.uid",
+      "sha": "e5a53d27feba5eaf637dd7ccba48c1037b868a33",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/V12HandStrip.cs",
+      "sha": "de79604cd2887c0c8cf729242bef3a5520c3ea9e",
+      "size": 828,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/V12HandStrip.cs.uid",
+      "sha": "30da5e1dacedf8ffb8bc31cf7bb5b5c52ab53e88",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/V12MatchController.cs",
+      "sha": "01e5383f08a4b2d6196792aedb7420e4b7a2e87d",
+      "size": 37100,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Presentation/V12MatchController.cs.uid",
+      "sha": "3c8e4f5b2fa18357724c5bc5e260dfa545357526",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/MainMenuFlowRunner.cs",
+      "sha": "7a6ed49612b8ad83b1371908e941acf70e80acaa",
+      "size": 2381,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/MainMenuFlowRunner.cs.uid",
+      "sha": "03258c1a54d6ba518e813007f39886ed25b6d84e",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12CardUiRunner.cs",
+      "sha": "38ff2432c405496636b2991772a3a0896e3e4435",
+      "size": 11130,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12CardUiRunner.cs.uid",
+      "sha": "61c851128106fff7768139afdfbad55063c5565a",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12CombatIntegrationRunner.cs",
+      "sha": "a48770182d8e6d416abf6c0fd46ae09b6cee4402",
+      "size": 2484,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12CombatIntegrationRunner.cs.uid",
+      "sha": "78515423e283015f5a54b717f70f98b330bc5ca8",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12DeletionRunner.cs",
+      "sha": "7dae0f3db038b4010c2d089877f54dd64914134a",
+      "size": 3560,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12DeletionRunner.cs.uid",
+      "sha": "8f457219efc27dca95a2a51dc2153053446685d5",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12LifecycleRunner.cs",
+      "sha": "95c0c4f5da54c4d1c9ac8da28c1ef486acffc84f",
+      "size": 3233,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12LifecycleRunner.cs.uid",
+      "sha": "d593fad7b8c81cc86d5a44ebb5106e08473b79d1",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12PackagedRunner.cs",
+      "sha": "891b7e184fc52a9e2456069c1330965e97e39ba2",
+      "size": 1172,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12PackagedRunner.cs.uid",
+      "sha": "bcf5cb5c4e25f3f0759b6bdba1ad4ff10ae4d62f",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12SelectionRunner.cs",
+      "sha": "c45160b1e1a248fe10f47b6fa18d7049317aea9f",
+      "size": 2639,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12SelectionRunner.cs.uid",
+      "sha": "5f49f2e15907b7e753058e28ac4f44408df95c73",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12SinglePlayerRunner.cs",
+      "sha": "98711b2603d3580514d5f2d44c0a5afb7cd829f5",
+      "size": 3550,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12SinglePlayerRunner.cs.uid",
+      "sha": "2483111dd0f0beebbdde91cab0714bdae8e16a83",
+      "size": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12TransitionRunner.cs",
+      "sha": "64aa340a2cfed7233696efdf318d5ba4f9f3d645",
+      "size": 2628,
+      "mode": "100644"
+    },
+    {
+      "path": "Scripts/Tests/V12TransitionRunner.cs.uid",
+      "sha": "c08309941ad57d6112c88fc791c183260bc223a3",
+      "size": 20,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "af67786a890495889552c93cfcf4a5540a25b9a7",
+      "size": 180,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/README.md",
+      "sha": "ca545e2ba8557005fc89fc78b6f24abbaff0290d",
+      "size": 5843,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/catalogue.md",
+      "sha": "dd0a2564f5c5418dec8ac997fdf19fa74f1ad65a",
+      "size": 33651,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/change-history.md",
+      "sha": "742d0178f5b5148e805779f4ee9a5b611eb66c48",
+      "size": 215,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/combat-rules.json",
+      "sha": "0ca3e6de86456dcad8c80e79ec1612c3b96e5662",
+      "size": 335,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/earth-flavor.json",
+      "sha": "222e12759143e1b881e0e31518082066ead7eadc",
+      "size": 1612,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/earth-name-map.json",
+      "sha": "0eee30553aab28da07c97b8fde254270904b8334",
+      "size": 4096,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/earth-names.md",
+      "sha": "0facd1dfd88621c4af4a33714889f8f715df4a74",
+      "size": 3270,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/earth.md",
+      "sha": "2fb92edd5b196596a06b309df87926823aeb46c8",
+      "size": 8259,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/fire-name-map.json",
+      "sha": "0f310cd959f3b5721e24a0b48f37dc8442691984",
+      "size": 4095,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/fire-names.md",
+      "sha": "8edb12cd965d55f4d76dc3715b38dc7d5cf8e256",
+      "size": 1383,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/fire.md",
+      "sha": "df4d61d1a3e8600c0558c2f91830493006c1d443",
+      "size": 5860,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/freeze-confirmation.md",
+      "sha": "742d0178f5b5148e805779f4ee9a5b611eb66c48",
+      "size": 215,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/generic.md",
+      "sha": "8bd39bda40fc605178297dc9888dcc038ea5a7f4",
+      "size": 5018,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/panel-budgets.md",
+      "sha": "01430473c73f18c6f2a9333fe9122073a379b9f2",
+      "size": 2819,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/poison-flavor.json",
+      "sha": "dc2cabd550fa6a99c1c641057456d2dd22304db4",
+      "size": 1631,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/poison-name-map.json",
+      "sha": "ec7d01db60e2029bb5fdeeca64f5ef79f8918a53",
+      "size": 3654,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/poison.md",
+      "sha": "649b2a2c9c51516b5119f64428751ac66b622e96",
+      "size": 6271,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/snapshot-audit.md",
+      "sha": "9229a68b979fd09db32c54d5f4a66e597308a99e",
+      "size": 50482,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/snapshot-contract.json",
+      "sha": "1cd79f0252bc5968aa6b27ebeac14f84e37340e1",
+      "size": 186224,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/snapshot-contract.md",
+      "sha": "b7b03ddd5a8a2ddf90cc8d04061bc5027894fbc7",
+      "size": 3660,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/water-flavor.json",
+      "sha": "e321702c067c95c794adb6ef9797608aaee2b027",
+      "size": 1561,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/water-name-map.json",
+      "sha": "c62033ff3a9579fffa98e8bab48145701d6d6da1",
+      "size": 3926,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/water.md",
+      "sha": "5257b7199f0acef489b4b9530e315da253e5c2cd",
+      "size": 6403,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/wind-flavor.json",
+      "sha": "d9513ead11e849da5bea5dfe4be3561e1538d819",
+      "size": 1365,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/wind-name-map.json",
+      "sha": "bfe5f3f3a45a4cecb19ec78fa41b44b371a02228",
+      "size": 3931,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/wind-names.md",
+      "sha": "db2567d02316177abfd06c336f24a3275d385efb",
+      "size": 1669,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/cards-v1.2/wind.md",
+      "sha": "760bdc4d9d71ae190549726957db8ad24ade9fcb",
+      "size": 7351,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/development.md",
+      "sha": "a39d43f28185a37870b68490f9ab05c984182ec3",
+      "size": 2559,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/README.md",
+      "sha": "2f291b018f5b9f17643adc56cc8bcb1288b4323a",
+      "size": 4029,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/ARCHIVED.md",
+      "sha": "0717361ef9f6d42ab5b0f7e2336c1cc1d3889638",
+      "size": 559,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/README.md",
+      "sha": "d0898f2b4ff58864d7cb8d60ca9c75d264c1687e",
+      "size": 8094,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/characters.md",
+      "sha": "d992b549ca5a94dff5ad5b1ae9a0098688b532ba",
+      "size": 33210,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/game-concept.md",
+      "sha": "69ff5e6900d7a50f6bd45282a2c9e56870e06165",
+      "size": 19377,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/naming-guide.md",
+      "sha": "cef92e618d0fdd748061f52645d7bb8291941520",
+      "size": 40845,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/visual-guide.md",
+      "sha": "3abbd35426ab7d1ec11849aba1ca5bc18e8aacf4",
+      "size": 28046,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/archive/v0.1/world.md",
+      "sha": "88f9831344950ab74f7c2d78ab870b290f7734cf",
+      "size": 30408,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/characters.md",
+      "sha": "27c55b7360c8c5005f0fbe15b0a6a59acff1a56b",
+      "size": 7884,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/naming-guide.md",
+      "sha": "624e1691d784ad5ca8e3c4fa0ca6d4811075925a",
+      "size": 9206,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/visual-guide.md",
+      "sha": "906c9476bf66c737f14b186a98cb6c7d723ff04e",
+      "size": 7125,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/lore/world.md",
+      "sha": "f18ca0871cd5a22f5d651c6b117fe1a9f12b6e52",
+      "size": 13045,
+      "mode": "100644"
+    },
+    {
+      "path": "export_presets.cfg",
+      "sha": "a2b543acbe46f7378fac4cb7b22c5e2530f351ad",
+      "size": 552,
+      "mode": "100644"
+    },
+    {
+      "path": "icon.svg",
+      "sha": "c6bbb7d820dd72528b71ac28bab9f45ec7613e6d",
+      "size": 995,
+      "mode": "100644"
+    },
+    {
+      "path": "icon.svg.import",
+      "sha": "42558d0c35c96b65f15c95c61444b0c6b57f2db5",
+      "size": 1013,
+      "mode": "100644"
+    },
+    {
+      "path": "project.godot",
+      "sha": "06e916c0c72fd5ea54814e4eba63f7584288164e",
+      "size": 849,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/Magicians-cards-combat-v1.2.zip",
+      "sha": "5ada0c7524e455637e9d7a1f550c08cfb36b0956",
+      "size": 510753,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/README.md",
+      "sha": "6fbd1f3f68306d7efd9f092fc5525207e522d67f",
+      "size": 392,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/manifest.json",
+      "sha": "58789b46068483c7ef895bb401ca1d5cbed3d80f",
+      "size": 2800,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/models/earth.json",
+      "sha": "cb7ba255dbf5fd8ddda5ffa75d568752f67e1110",
+      "size": 1310,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/models/fire.json",
+      "sha": "5b3ac1b2e98582fb41e2a38471e96a2c4ec37eb0",
+      "size": 1312,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/models/flexible.json",
+      "sha": "f7a5444a0fd3caf68f05d4054a4b5a467ab8c2ba",
+      "size": 1219,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/models/poison.json",
+      "sha": "80360fa77e9698bde18a97cec9d6b09f627cc889",
+      "size": 1318,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/models/water.json",
+      "sha": "3c638023f73b64cdea48163b9207fe06b5d6c9a0",
+      "size": 1315,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/ai-v1.2-six-styles-20261029/models/wind.json",
+      "sha": "33b16ad2e87ade5e6afdf616fe1a93a4cf6eb0c2",
+      "size": 1310,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/client-v1.2.json",
+      "sha": "3aa9882eedacd44382353c899686495171ce0fc3",
+      "size": 759,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/deckbuilding-v1.2/README.md",
+      "sha": "51f8035f18afb26cdb3952e68388aeb67b2fb679",
+      "size": 1150,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/deckbuilding-v1.2/damage.json",
+      "sha": "daa13fb8227a316c1102d5ccd164f47c5f29cfbb",
+      "size": 3759,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/deckbuilding-v1.2/economy.json",
+      "sha": "e10df6c6d101f23fb7ce19b74f4a9963bc1a3abf",
+      "size": 1504,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/README.md",
+      "sha": "9ff5219b19379d7fc3fe727097783230b5e13a23",
+      "size": 511,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/cards.json",
+      "sha": "b10270fd1c72f0350daa3ed5e149ec53eb1bae6e",
+      "size": 118476,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/combat-rules.json",
+      "sha": "ac2a251500028a6513a8b583430cfb7227ea2da2",
+      "size": 1476,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/freeze-manifest.json",
+      "sha": "b714762d75907a2708a4f383723472ebef0c66cd",
+      "size": 25346,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/implementation-review.json",
+      "sha": "efd844db7ea5dcbe57704950c98ee9d6543b60f7",
+      "size": 131760,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/pool-counts.json",
+      "sha": "190b32d8eb5473656046b007e68547a26e1385b2",
+      "size": 3785,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/retired-cards.json",
+      "sha": "8999beffb1e2e4425cbf18278a06acf0aec2e0c7",
+      "size": 1037,
+      "mode": "100644"
+    },
+    {
+      "path": "releases/v1.2/verification.json",
+      "sha": "c1069a3f4b6eae9957db10494c6ac2cb4314c388",
+      "size": 2541,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/audit_v12_cards.py",
+      "sha": "41be74b2656f61ab48123c3b673debb45a168ba5",
+      "size": 3498,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/audit_v12_layers.py",
+      "sha": "897b23275bb6591e5ef964efa603defa166331bb",
+      "size": 34279,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/build_v12_catalogue.py",
+      "sha": "e7aaa29ba8dcea3d6ededc4cfb67f3807f9fe014",
+      "size": 1324,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/build_v12_presentation.py",
+      "sha": "9f35e8ebba781202b1f623f9596fb7938d8d7dbf",
+      "size": 2912,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/client_v12/__init__.py",
+      "sha": "8521c0a217351fe420ec3146c891003bad83a1aa",
+      "size": 80,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/client_v12/bridge.py",
+      "sha": "75502d452c0b097e77309fa85f9e9b28f9655a3d",
+      "size": 5218,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/client_v12/match.py",
+      "sha": "d7a9338badb28f2269b1735d2642e2ef718b5b10",
+      "size": 17101,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/client_v12/test_bridge.py",
+      "sha": "0307b33f6a6bd67084ee1e17b7f6bdefdc98df17",
+      "size": 5646,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/client_v12/test_match.py",
+      "sha": "17cd37f0533fcb8dbccd204861db43e375dcd99e",
+      "size": 7747,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/freeze_v12.py",
+      "sha": "a6bfde7b5197e847ee71d428947b7e156185f939",
+      "size": 4703,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/installer/build_v12_portable.py",
+      "sha": "ee046a43957f48fa29739349ce342a9aec8cd492",
+      "size": 3204,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/run_v12_client_regressions.ps1",
+      "sha": "57872c50d1e71dd393ac374fdf2bdcee5ae76eb5",
+      "size": 2186,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/README.md",
+      "sha": "4cf6b1d69c44457e497f85dfe762d2e757fde771",
+      "size": 943,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/__init__.py",
+      "sha": "63971285af27b166843443ecb0333003bd587e6a",
+      "size": 75,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/__main__.py",
+      "sha": "792323266c497abe72044547ee59b2b9290e57d9",
+      "size": 3852,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/analytics.py",
+      "sha": "513eedd162361f547319ee321679d1fc28951e1c",
+      "size": 10628,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/catalog.py",
+      "sha": "f6e33f57f3ed6144a6b8f44df68293466953f1cc",
+      "size": 7248,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/cohort.py",
+      "sha": "d1a2e86b578be4a56abc1a611aa361b743fcd3d0",
+      "size": 2702,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/construction.py",
+      "sha": "a85cbea735e7ee58f094a46c22b034c114080017",
+      "size": 5185,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/construction_templates.py",
+      "sha": "c0b7a5a7073aa9a12944ba55cdd03e428472989f",
+      "size": 1042,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/dual_train.py",
+      "sha": "d432ee41461f50db5037395541388d1c0567237d",
+      "size": 8821,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/effects.py",
+      "sha": "3fcda4aee438bedbada1d27a1199f925e0fde77b",
+      "size": 21541,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/element_paired_train.py",
+      "sha": "9eac751fda4d4296838824a971df86a473f402ac",
+      "size": 8316,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/element_train.py",
+      "sha": "cf679bc74703a373f1f57b86fba931ca0c0132ef",
+      "size": 9211,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/engine.py",
+      "sha": "1e9cbbb05c03837f9bbc09ca2f83d35fb834f2b1",
+      "size": 43760,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/exploration.py",
+      "sha": "2a14c6244c65cfda1256aa0489c219871e15f52f",
+      "size": 5065,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/fixtures/medium-policy.json",
+      "sha": "357b65f717bc3c174567abedb108fa1cd7bfb308",
+      "size": 1439,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/fixtures/small-policy.json",
+      "sha": "74c60caf1424dab76f9fa12251860b967c86fb09",
+      "size": 1271,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/free_train.py",
+      "sha": "598e38557cdc582ef410b225f809aea44621bb4e",
+      "size": 11077,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/learning_policy.py",
+      "sha": "1223783ce9b1608d9e2575275aee46c935939839",
+      "size": 9901,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/legacy_policy.py",
+      "sha": "3ebee5eed64eaa9a7d1b25d929a721b7292556e2",
+      "size": 6230,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/locked.py",
+      "sha": "c3de7cb2d559a0fcb53f70d09b0ea5410d7bc86e",
+      "size": 17525,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/mechanics.py",
+      "sha": "e86340de290dfa5ba57731cf6db639b9dff8949e",
+      "size": 4710,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/medium_train.py",
+      "sha": "8fdceb376e243fe5c53fe4c46b995cb9ec9ed096",
+      "size": 6410,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/model.py",
+      "sha": "23c6219635803fcac0fefdca1429a773ea491e4c",
+      "size": 4274,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/outcome_train.py",
+      "sha": "86a398078fa104f2c55085233132ff1cd39ff136",
+      "size": 9450,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/panel_budget.py",
+      "sha": "7c4247ba3dfcbc3f567b6f0f56f41f32021dd2bf",
+      "size": 1136,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/policy.py",
+      "sha": "0459984ee18645b3b8e9d15e1edaf4fc050a7630",
+      "size": 6299,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/pool.py",
+      "sha": "4dc1087412366a14f66be6fec22fca7992935378",
+      "size": 12092,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/population_train.py",
+      "sha": "484455d305b3de3b26dcfa0fcb3ac08595660119",
+      "size": 8375,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/quick_test.py",
+      "sha": "e6832f39b39020f25d9764d084dfdfdee0ab9bc1",
+      "size": 7108,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/rules/ai-policy.json",
+      "sha": "98df859f7d6982b87fd3a5200b6114a9010c4b46",
+      "size": 59,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/rules/combat.json",
+      "sha": "0ca3e6de86456dcad8c80e79ec1612c3b96e5662",
+      "size": 335,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/rules/damage.json",
+      "sha": "daa13fb8227a316c1102d5ccd164f47c5f29cfbb",
+      "size": 3759,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/rules/economy.json",
+      "sha": "e10df6c6d101f23fb7ce19b74f4a9963bc1a3abf",
+      "size": 1504,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/rules/panel-budgets.json",
+      "sha": "bcf4470c11a162182afa3c9bf3882b1d0bd8ee38",
+      "size": 6110,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/rules/probabilities.json",
+      "sha": "6c33325544b486875ecedb1ecf119571d848577f",
+      "size": 5003,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/six_styles.py",
+      "sha": "51ede17362dbd0dfb6fd9c9a89b27aff301dd7f9",
+      "size": 1677,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/six_train.py",
+      "sha": "9ac93315d2e84658e29deed6b46bde8a962bc3a1",
+      "size": 7691,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/strict.py",
+      "sha": "d9fb938f05845389f0828b2623d310aba3925552",
+      "size": 6615,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_blood_poison_startup.py",
+      "sha": "5fba14405498111523deb25cc8edad4278a515bc",
+      "size": 2540,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_current.py",
+      "sha": "335ee9ca90a0f0355018835e63d1619af3a3deaf",
+      "size": 14284,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_early_deletion.py",
+      "sha": "865a721681eb923b19f0a38b2f099da70c1850ac",
+      "size": 2130,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_economy.py",
+      "sha": "6871f8d1233cb76ac5d52b27270972cd292c4f99",
+      "size": 1350,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_element_paired_train.py",
+      "sha": "ba7a0f3f5c89d2a75f3a8ef581dc830c371147da",
+      "size": 876,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_element_train.py",
+      "sha": "3ee358a2126dda49cdb62b9e8e95399b49568a8e",
+      "size": 1494,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_exploration.py",
+      "sha": "8d4163974ae95da9a9981e115a17625e3c6c0470",
+      "size": 3483,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_fatigue.py",
+      "sha": "99043875cb2d4e1345fb30ffe132ad103eb3d669",
+      "size": 1359,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_fire_enchantment_fix.py",
+      "sha": "1d77d3efe9872c419d52e0c7394757bbb44be3d2",
+      "size": 1368,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_freeze_contract.py",
+      "sha": "369bed828edc57917b6189f0b99c0d0bb4beec96",
+      "size": 4317,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_latest_cards.py",
+      "sha": "2244358caf768a146c6263e4f9da7f3ab8832e41",
+      "size": 2265,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_outcome_train.py",
+      "sha": "50a227cadc4ca331ddf0b6f2baf1f4b701477ca6",
+      "size": 1440,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_panel_budget.py",
+      "sha": "ee00a7bef828559bc972a3ad3b4413694559ac6a",
+      "size": 3536,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_poison_specialization_rollback.py",
+      "sha": "9447d653482e239049d6985f581ac9c238e78640",
+      "size": 857,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_route_balance.py",
+      "sha": "3a8a78d73506c8de47abe8a09b16f2b5c8c2a38f",
+      "size": 8369,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_shield_fire_tuning.py",
+      "sha": "eff42572ba993e6827539026ccd6f0a68d0f89f5",
+      "size": 2042,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_shield_poison_tuning.py",
+      "sha": "cfd831a87235d3400fdf52e57cca4bb178c12d0d",
+      "size": 1521,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_six_styles.py",
+      "sha": "aa9c27fcd9ea2d415113e1903523c296bf9d7700",
+      "size": 1281,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_spring_refinement.py",
+      "sha": "5c31807a207336392cd2f30e4cb015ae9fb3d186",
+      "size": 1086,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_temporary_additive.py",
+      "sha": "908fc43859fd57cbfcc9dbc8df70ad95867a387a",
+      "size": 5155,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_user_earth_edits.py",
+      "sha": "77bfc418c711ee51726681c36ecb95c696ac5f29",
+      "size": 2163,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_user_mixed_edits.py",
+      "sha": "1b14666d9d5cd176183aed245f0144ff9ff86536",
+      "size": 1871,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_user_water_poison_edits.py",
+      "sha": "07fee594336ae7acd867bd2cf6b1492a35cca22d",
+      "size": 2610,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_water_earth.py",
+      "sha": "bc2ea2fe7da4bcdd824ea4b06013bb652d69ade8",
+      "size": 1494,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_water_lifeonly.py",
+      "sha": "aca5b0d281da9a028c5c6275324921ed6442737e",
+      "size": 1689,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_wind_ash_poison.py",
+      "sha": "65e1a4166b51b8c544dce158d1a8bbcfefc2db17",
+      "size": 2607,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/test_wind_rebalance.py",
+      "sha": "ae9ebd811cfec4f9cbf8ecd46431eac20cb87f5c",
+      "size": 2181,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/thin_train.py",
+      "sha": "b4a5a1a93bc5d9d2d33664805e2cc1ecb5061f62",
+      "size": 10776,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/tournament.py",
+      "sha": "bad23100a720d8f450f9364bffe9a4f365491f58",
+      "size": 12733,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/sim_v12/train.py",
+      "sha": "70b220db91476fccd8c2df4fdf48bcf5a6b31a34",
+      "size": 12568,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/update_desktop_shortcut.ps1",
+      "sha": "26a047e3368f8c1ef8897076ba4cb3e07c058e2d",
+      "size": 1103,
+      "mode": "100644"
+    },
+    {
+      "path": "tools/verify_v12.py",
+      "sha": "ed8c0d46f4d7b3c654b7adf9927d65e32601f158",
+      "size": 1660,
+      "mode": "100644"
+    }
+  ]
+}

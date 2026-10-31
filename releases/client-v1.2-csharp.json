@@ -1,0 +1,20 @@
+{
+  "version": "1.2",
+  "edition": "native-csharp",
+  "date": "2026-10-31",
+  "platform": "windows-x86_64",
+  "tag": "v1.2-csharp-20261031",
+  "package": "Magicians-v1.2-CSharp-Windows-x64.zip",
+  "sha256": "f72ac29ffe1dc9f874b112808efd05f07c4cfdb49e8d52ac54e3575f6dce2bbc",
+  "size_bytes": 73424298,
+  "download_url": "https://github.com/sjtu-Mutsumi/Magicians-drifts-/releases/download/v1.2-csharp-20261031/Magicians-v1.2-CSharp-Windows-x64.zip",
+  "entry_point": "Magicians.exe",
+  "runtime": "native-csharp",
+  "python_required": false,
+  "godot_install_required": false,
+  "dotnet_install_required": false,
+  "cards": 183,
+  "stock": 677,
+  "models": "ai-v1.2-six-styles-20261029",
+  "baseline_commit": "0c0150dbeda044f06c0e31d02a157aa56c7106c8"
+}

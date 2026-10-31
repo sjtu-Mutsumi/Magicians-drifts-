@@ -1,0 +1,7 @@
+{
+  "version": "v1.2-fatigue-1200-v1",
+  "fatigue_start_av": 1200,
+  "fatigue_timing": "after_cards_at_each_100_av_stage_end",
+  "fatigue_formula": "ceil(current_hp * (0.05 + absolute_action_value / 10000))",
+  "fatigue_notes": "Fatigue begins at absolute action value 1200 and resolves after cards at each 100 AV stage end."
+}

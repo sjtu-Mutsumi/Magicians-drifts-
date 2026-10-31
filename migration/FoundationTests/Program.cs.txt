@@ -1,0 +1,60 @@
+using System.Numerics;
+using System.Text.Json;
+using System.Security.Cryptography;
+using System.Buffers.Binary;
+using Magicians.Native;
+
+static void Require(bool valid, string message) { if (!valid) throw new Exception(message); }
+var root = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../../"));
+if (args.Length > 0) root = Path.GetFullPath(args[0]);
+Catalog.Initialize(root);
+Catalog.validate_sources();
+foreach (var style in SixStyles.IDS) Require(SixStyles.load_policy(style).GetProperty("kind").GetString() == "explorer", "model " + style);
+Require(Catalog.CARDS.Count == 183 && Catalog.CARDS.Values.Sum(Catalog.copies) == 677, "inventory");
+foreach (var card in Catalog.CARDS.Values)
+{
+    var bounds = PanelBudget.bounds(card.name, card.rarity);
+    var value = PanelBudget.value(card.cost, card.attack, card.defense);
+    Require(value >= bounds.low && value <= bounds.high, "panel budget " + card.name);
+}
+using var oracle = JsonDocument.Parse(File.ReadAllBytes(Path.Combine(root, "migration/FoundationTests/oracle.json")));
+foreach (var row in oracle.RootElement.GetProperty("rng").EnumerateArray())
+{
+    var rng = new PythonRandom(BigInteger.Parse(row.GetProperty("seed").GetString()!));
+    foreach (var expected in row.GetProperty("random").EnumerateArray()) Require(BitConverter.DoubleToInt64Bits(rng.random()) == BitConverter.DoubleToInt64Bits(expected.GetDouble()), "random " + row.GetProperty("seed"));
+    foreach (var item in row.GetProperty("bits").EnumerateArray()) Require(rng.getrandbits(item.GetProperty("k").GetInt32()).ToString() == item.GetProperty("value").GetString(), "randbits");
+    foreach (var item in row.GetProperty("ranges").EnumerateArray()) Require(rng.randrange(item.GetProperty("n").GetInt32()) == item.GetProperty("value").GetInt32(), "randrange");
+    var shuffled = Enumerable.Range(0, 40).ToList(); rng.shuffle(shuffled);
+    Require(shuffled.SequenceEqual(row.GetProperty("shuffle").EnumerateArray().Select(x => x.GetInt32())), "shuffle");
+    foreach (var item in row.GetProperty("samples").EnumerateArray())
+    {
+        var population = Enumerable.Range(0, item.GetProperty("n").GetInt32()).ToArray();
+        Require(rng.sample(population, item.GetProperty("k").GetInt32()).SequenceEqual(item.GetProperty("value").EnumerateArray().Select(x => x.GetInt32())), "sample");
+    }
+    Require(rng.choices(new[] { "a", "b", "c", "d" }, new double[] { 0, 0.1, 0.4, 0.5 }, 30).SequenceEqual(row.GetProperty("choices").EnumerateArray().Select(x => x.GetString()!)), "choices");
+    var clone = rng.Clone(); for (var i = 0; i < 40; i++) Require(rng.getrandbits(64) == clone.getrandbits(64), "rng clone");
+    var longRng = new PythonRandom(BigInteger.Parse(row.GetProperty("seed").GetString()!));
+    var bytes = new byte[20_000 * 4];
+    for (var i = 0; i < 20_000; i++) BinaryPrimitives.WriteUInt32LittleEndian(bytes.AsSpan(i * 4, 4), longRng.NextUInt32());
+    Require(Convert.ToHexString(SHA256.HashData(bytes)).ToLowerInvariant() == row.GetProperty("long_words_sha256").GetString(), "MT19937 repeated twists");
+}
+foreach (var item in oracle.RootElement.GetProperty("fractions").EnumerateArray())
+{
+    var a = Q.Parse(item.GetProperty("a").GetString()!); var b = Q.Parse(item.GetProperty("b").GetString()!);
+    Require((a+b).ToString() == item.GetProperty("add").GetString(), "fraction add");
+    Require((a*b).ToString() == item.GetProperty("mul").GetString(), "fraction multiply");
+    Require((a/b).ToString() == item.GetProperty("div").GetString(), "fraction divide");
+    Require((a%b).ToString() == item.GetProperty("mod").GetString(), "fraction modulo");
+    Require(a.Floor().ToString() == item.GetProperty("floor").GetString(), "fraction floor");
+    Require(a.Ceiling().ToString() == item.GetProperty("ceil").GetString(), "fraction ceil");
+    Require(a.Pow(-3).ToString() == item.GetProperty("pow").GetString(), "fraction power");
+}
+foreach (var item in oracle.RootElement.GetProperty("float_fractions").EnumerateArray()) Require(Q.FromDouble(item.GetProperty("value").GetDouble()).ToString() == item.GetProperty("fraction").GetString(), "fraction float");
+foreach (var item in oracle.RootElement.GetProperty("fraction_floats").EnumerateArray()) Require(BitConverter.DoubleToInt64Bits((double)Q.Parse(item.GetProperty("fraction").GetString()!)) == item.GetProperty("bits").GetInt64(), "fraction correctly rounded float");
+foreach (var item in oracle.RootElement.GetProperty("salts").EnumerateArray()) Require(PyCompat.BattleSeed(BigInteger.Parse(item.GetProperty("seed").GetString()!), item.GetProperty("deck").EnumerateArray().Select(x=>x.GetString()!)).ToString() == item.GetProperty("salt").GetString(), "battle seed");
+var fighter = new Fighter(0, Catalog.START, "fire", new BigInteger(12345));
+fighter.fx["delay"] = new Q(3,2); fighter.pending.heal_batches.Add(25); fighter.temporary.Add(new Q[] {50,2,new Q(1,2)});
+var copy = fighter.Clone(); copy.fx["delay"] = 99; copy.pending.heal_batches.Add(12); copy.temporary[0][0] = 2; copy.pile.Clear();
+Require(fighter.fx["delay"] == new Q(3,2) && fighter.pending.heal_batches.Count == 1 && fighter.temporary[0][0] == 50 && fighter.pile.Count == 8, "independent fighter clone");
+var originalFx = fighter.fx; fighter.CopyFrom(copy); Require(ReferenceEquals(fighter.fx, originalFx) && fighter.fx["delay"] == 99, "restore preserves container aliases");
+Console.WriteLine("NATIVE_FOUNDATION_OK cards=183 stock=677 models=6 exact-fractions=OK cpython-rng=OK seeded-shuffle=OK fighter-clone=OK");

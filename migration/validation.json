@@ -1,0 +1,59 @@
+{
+  "baseline_commit": "0c0150dbeda044f06c0e31d02a157aa56c7106c8",
+  "completedAt": "2026-10-31T15:09:22.494627+08:00",
+  "runtime": "native-csharp",
+  "python_required": false,
+  "native_source_files": 20,
+  "unchanged_reference_files": 153,
+  "changed_original_files": [
+    ".gitignore",
+    "AGENTS.md",
+    "Magicians!.csproj",
+    "NuGet.config",
+    "README.md",
+    "Scripts/Application/V12CombatRuntime.cs",
+    "Scripts/Application/V12MatchRuntime.cs",
+    "Scripts/Tests/V12PackagedRunner.cs",
+    "docs/development.md",
+    "tools/installer/build_v12_portable.py"
+  ],
+  "differential": {
+    "cards": 366,
+    "route_battles": 15,
+    "complete_sessions": 7,
+    "failures": 0
+  },
+  "additional_checks": {
+    "mixed_battles": 100,
+    "mechanics": 551,
+    "protocol_requests": 27,
+    "rng_integer_seeds": 6,
+    "rng_words_per_seed": 20000,
+    "fraction_to_double_bit_patterns": 507,
+    "economy_player_rounds": 96
+  },
+  "client_tests": [
+    "godot-card-ui.log",
+    "V12SinglePlayerRunner.log",
+    "V12LifecycleRunner.log",
+    "MainMenuFlowRunner.log",
+    "V12SelectionRunner.log",
+    "V12DeletionRunner.log",
+    "V12CombatIntegrationRunner.log",
+    "transition-out.log",
+    "packaged-native-out.log"
+  ],
+  "packaged_smoke_exit": 0,
+  "packaged_smoke": "V12_PACKAGED_OK native-csharp=OK",
+  "program": "Magicians.exe",
+  "cards": 183,
+  "stock": 677,
+  "ai_models": 6,
+  "renamed_cards": 103,
+  "flavor_in_match": false,
+  "notes": [
+    "原版Python仅保留为源码对照与训练开发工具，不随发行包复制。",
+    "比对保留完整精确数值、随机状态、操作响应、日志、排名与复盘；无法将有限测试视作穷尽所有可能输入。"
+  ],
+  "independent_package_audit": "passed: 245 hashes; no Python runtime/source/bytecode; UI unchanged"
+}

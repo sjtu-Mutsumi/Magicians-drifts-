@@ -1,0 +1,161 @@
+{
+  "version": "1.2",
+  "element": "water",
+  "status": "confirmed-naming-only",
+  "source_commit": "e84b80950be73e815d25d79cb8b8216771f30679",
+  "card_count": 30,
+  "renamed_count": 18,
+  "note": "键及 original_name 是稳定的原卡标识；display_name 仅供展示。不得按字符串顺序级联替换，也不得套用到旧版本不同卡效的同名牌。",
+  "cards": {
+    "潮汐之心": {
+      "original_name": "潮汐之心",
+      "display_name": "潮汐之心",
+      "rarity": "specialization"
+    },
+    "深渊潮": {
+      "original_name": "深渊潮",
+      "display_name": "沧海横流",
+      "rarity": "legendary"
+    },
+    "潮汐回响": {
+      "original_name": "潮汐回响",
+      "display_name": "潮汐回响",
+      "rarity": "legendary"
+    },
+    "生命之泉": {
+      "original_name": "生命之泉",
+      "display_name": "生命之泉",
+      "rarity": "legendary"
+    },
+    "血潮": {
+      "original_name": "血潮",
+      "display_name": "浴血狂澜",
+      "rarity": "legendary"
+    },
+    "回响之潮": {
+      "original_name": "回响之潮",
+      "display_name": "回响之潮",
+      "rarity": "epic"
+    },
+    "奔流": {
+      "original_name": "奔流",
+      "display_name": "湍流",
+      "rarity": "epic"
+    },
+    "水幕": {
+      "original_name": "水幕",
+      "display_name": "浸润",
+      "rarity": "epic"
+    },
+    "泉心": {
+      "original_name": "泉心",
+      "display_name": "泉眼",
+      "rarity": "epic"
+    },
+    "洪潮": {
+      "original_name": "洪潮",
+      "display_name": "洪潮",
+      "rarity": "epic"
+    },
+    "深渊": {
+      "original_name": "深渊",
+      "display_name": "深渊",
+      "rarity": "epic"
+    },
+    "潮汐风暴": {
+      "original_name": "潮汐风暴",
+      "display_name": "风暴潮",
+      "rarity": "epic"
+    },
+    "血潮汹涌": {
+      "original_name": "血潮汹涌",
+      "display_name": "血潮汹涌",
+      "rarity": "epic"
+    },
+    "回流": {
+      "original_name": "回流",
+      "display_name": "观潮",
+      "rarity": "rare"
+    },
+    "洪流": {
+      "original_name": "洪流",
+      "display_name": "巨浪奔涌",
+      "rarity": "rare"
+    },
+    "涌泉": {
+      "original_name": "涌泉",
+      "display_name": "涌泉",
+      "rarity": "rare"
+    },
+    "深流": {
+      "original_name": "深流",
+      "display_name": "深潜",
+      "rarity": "rare"
+    },
+    "潮声": {
+      "original_name": "潮声",
+      "display_name": "听潮",
+      "rarity": "rare"
+    },
+    "潮汐回廊": {
+      "original_name": "潮汐回廊",
+      "display_name": "潮汐回廊",
+      "rarity": "rare"
+    },
+    "疾流": {
+      "original_name": "疾流",
+      "display_name": "凭潮",
+      "rarity": "rare"
+    },
+    "穿潮": {
+      "original_name": "穿潮",
+      "display_name": "破浪",
+      "rarity": "rare"
+    },
+    "血刃": {
+      "original_name": "血刃",
+      "display_name": "血刃",
+      "rarity": "rare"
+    },
+    "血怒": {
+      "original_name": "血怒",
+      "display_name": "背水",
+      "rarity": "rare"
+    },
+    "连环潮": {
+      "original_name": "连环潮",
+      "display_name": "连环潮",
+      "rarity": "rare"
+    },
+    "静水": {
+      "original_name": "静水",
+      "display_name": "涟漪",
+      "rarity": "rare"
+    },
+    "水之低语": {
+      "original_name": "水之低语",
+      "display_name": "塑水",
+      "rarity": "common"
+    },
+    "泉眼": {
+      "original_name": "泉眼",
+      "display_name": "润物",
+      "rarity": "common"
+    },
+    "潮涌": {
+      "original_name": "潮涌",
+      "display_name": "回流",
+      "rarity": "common"
+    },
+    "细流": {
+      "original_name": "细流",
+      "display_name": "溯洄",
+      "rarity": "common"
+    },
+    "活水": {
+      "original_name": "活水",
+      "display_name": "活水",
+      "rarity": "common"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="220" viewBox="0 0 180 220">
+  <circle cx="90" cy="54" r="34" fill="#ffd4a3"/>
+  <path d="M48 112 Q90 82 132 112 L151 202 L29 202 Z" fill="#4f9d69" stroke="#b5f0c7" stroke-width="4"/>
+  <path d="M58 119 L90 167 L122 119" fill="#d4f7df" opacity="0.8"/>
+  <circle cx="77" cy="53" r="5" fill="#26364f"/><circle cx="103" cy="53" r="5" fill="#26364f"/>
+  <path d="M74 72 Q90 84 106 72" fill="none" stroke="#26364f" stroke-width="4"/>
+  <text x="90" y="216" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ffffff">PLAYER</text>
+</svg>

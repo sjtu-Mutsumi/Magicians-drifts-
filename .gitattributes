@@ -1,0 +1,11 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Frozen card manifests, trained policies and replay evidence bind exact bytes.
+# Preserve their original newlines on checkout on every platform.
+*.json -text
+*.md -text
+*.py -text
+*.zip -text
+*.gz -text
+*.part* -text

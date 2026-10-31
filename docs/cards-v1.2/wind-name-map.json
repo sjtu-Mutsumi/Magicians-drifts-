@@ -1,0 +1,161 @@
+{
+  "version": "1.2",
+  "element": "wind",
+  "status": "confirmed-naming-only",
+  "source_commit": "30bd6bd652dac4cf9d92f0855dfd7ad6218345e7",
+  "card_count": 30,
+  "renamed_count": 16,
+  "note": "键及original_name保留稳定运行标识；display_name仅供展示。按原卡标识一次映射，不级联替换。机制名风痕保持原称，不与传奇牌积风成灾混同。",
+  "cards": {
+    "天岚": {
+      "original_name": "天岚",
+      "display_name": "天岚",
+      "rarity": "specialization"
+    },
+    "疾风之刃": {
+      "original_name": "疾风之刃",
+      "display_name": "长风不息",
+      "rarity": "legendary"
+    },
+    "穿云箭": {
+      "original_name": "穿云箭",
+      "display_name": "穿云破阵",
+      "rarity": "legendary"
+    },
+    "风痕": {
+      "original_name": "风痕",
+      "display_name": "积风成灾",
+      "rarity": "legendary"
+    },
+    "飓风": {
+      "original_name": "飓风",
+      "display_name": "大风起兮",
+      "rarity": "legendary"
+    },
+    "气旋护壁": {
+      "original_name": "气旋护壁",
+      "display_name": "一息尚存",
+      "rarity": "epic"
+    },
+    "烈风": {
+      "original_name": "烈风",
+      "display_name": "烈风",
+      "rarity": "epic"
+    },
+    "疾风连斩": {
+      "original_name": "疾风连斩",
+      "display_name": "疾风连斩",
+      "rarity": "epic"
+    },
+    "穿云破甲": {
+      "original_name": "穿云破甲",
+      "display_name": "风蚀",
+      "rarity": "epic"
+    },
+    "裂空穿云": {
+      "original_name": "裂空穿云",
+      "display_name": "裂空穿云",
+      "rarity": "epic"
+    },
+    "风之躯": {
+      "original_name": "风之躯",
+      "display_name": "风之躯",
+      "rarity": "epic"
+    },
+    "风暴": {
+      "original_name": "风暴",
+      "display_name": "风暴",
+      "rarity": "epic"
+    },
+    "风痕回廊": {
+      "original_name": "风痕回廊",
+      "display_name": "风过留痕",
+      "rarity": "epic"
+    },
+    "狂风": {
+      "original_name": "狂风",
+      "display_name": "狂风",
+      "rarity": "rare"
+    },
+    "疾行": {
+      "original_name": "疾行",
+      "display_name": "神行",
+      "rarity": "rare"
+    },
+    "穿云": {
+      "original_name": "穿云",
+      "display_name": "捕风",
+      "rarity": "rare"
+    },
+    "裂风": {
+      "original_name": "裂风",
+      "display_name": "裂风",
+      "rarity": "rare"
+    },
+    "追云": {
+      "original_name": "追云",
+      "display_name": "追云",
+      "rarity": "rare"
+    },
+    "追风": {
+      "original_name": "追风",
+      "display_name": "追风",
+      "rarity": "rare"
+    },
+    "顺风": {
+      "original_name": "顺风",
+      "display_name": "顺风",
+      "rarity": "rare"
+    },
+    "风刃": {
+      "original_name": "风刃",
+      "display_name": "借风",
+      "rarity": "rare"
+    },
+    "风切": {
+      "original_name": "风切",
+      "display_name": "回风",
+      "rarity": "rare"
+    },
+    "风痕刻印": {
+      "original_name": "风痕刻印",
+      "display_name": "风痕刻印",
+      "rarity": "rare"
+    },
+    "风蚀": {
+      "original_name": "风蚀",
+      "display_name": "浴风",
+      "rarity": "rare"
+    },
+    "风驰": {
+      "original_name": "风驰",
+      "display_name": "风驰",
+      "rarity": "rare"
+    },
+    "寻风": {
+      "original_name": "寻风",
+      "display_name": "听风",
+      "rarity": "common"
+    },
+    "风步": {
+      "original_name": "风步",
+      "display_name": "迅捷",
+      "rarity": "common"
+    },
+    "风眼": {
+      "original_name": "风眼",
+      "display_name": "避风港",
+      "rarity": "common"
+    },
+    "轻羽": {
+      "original_name": "轻羽",
+      "display_name": "风起",
+      "rarity": "common"
+    },
+    "掠影": {
+      "original_name": "掠影",
+      "display_name": "掠影",
+      "rarity": "common"
+    }
+  }
+}

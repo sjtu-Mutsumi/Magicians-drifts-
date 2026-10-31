@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+ <ItemGroup><Compile Include="../../Scripts/Native/Foundation/**/*.cs"/><Compile Include="../../Scripts/Native/Combat/**/*.cs"/><Compile Include="../../Scripts/Native/Policy/**/*.cs"/><Compile Include="../../Scripts/Native/Tournament/**/*.cs"/><Compile Include="Program.cs"/><Compile Include="MechanicTests.cs"/></ItemGroup>
+</Project>

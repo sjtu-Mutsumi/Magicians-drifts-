@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "game_version": "1.2",
+  "card_count": 183,
+  "pool_copies": 677,
+  "cards_sha256": "200c31d068acc74780a7ec19c2e00c6ae88c21941333cfd01fa98d3363d28f35",
+  "selection": "validation-selected before sealed final; no global optimality claim",
+  "research": "research\\v1.2-six-style-1000-20261029",
+  "default_client_changed": false,
+  "models": {
+    "fire": {
+      "label": "火系",
+      "file": "models/fire.json",
+      "sha256": "1a9405815ee3c8121f0778b0d0b651a18df141a3aa64c40fd7a67d859f0fe97e",
+      "checkpoint": "six-fire-accepted-01",
+      "element_intent": "fire",
+      "evaluation": {
+        "games": 27,
+        "mean": -0.027625640820085267,
+        "low": -0.11194909236210825,
+        "high": 0.056697810721937705
+      }
+    },
+    "water": {
+      "label": "水系",
+      "file": "models/water.json",
+      "sha256": "b24d3d60fe164ae66995bed65fdde5eb314011b28df506f20bcc00734ce30af1",
+      "checkpoint": "six-water-accepted-04",
+      "element_intent": "water",
+      "evaluation": {
+        "games": 27,
+        "mean": 0.07067163803274915,
+        "low": -0.03326683696908622,
+        "high": 0.1746101130345845
+      }
+    },
+    "earth": {
+      "label": "土系",
+      "file": "models/earth.json",
+      "sha256": "46c1cd1aa36ded1439044b01ac9212228ab03a5d9afae16f5fe40603cdc38a1d",
+      "checkpoint": "six-earth-initial",
+      "element_intent": "earth",
+      "evaluation": {
+        "games": 28,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "wind": {
+      "label": "风系",
+      "file": "models/wind.json",
+      "sha256": "c7833e0ed0767d9c05b9c60435e37df65738a4494f58cce1e64839cc6b1d7c52",
+      "checkpoint": "six-wind-accepted-03",
+      "element_intent": "wind",
+      "evaluation": {
+        "games": 27,
+        "mean": -0.039275564307097395,
+        "low": -0.1389287251688318,
+        "high": 0.06037759655463703
+      }
+    },
+    "poison": {
+      "label": "毒系",
+      "file": "models/poison.json",
+      "sha256": "782b165f555e30828a79176abac6becb2057a66e9b4019e13d70576741820051",
+      "checkpoint": "six-poison-accepted-04",
+      "element_intent": "poison",
+      "evaluation": {
+        "games": 27,
+        "mean": 0.04999213195019297,
+        "low": -0.08144151221079068,
+        "high": 0.18142577611117663
+      }
+    },
+    "flexible": {
+      "label": "灵活多变",
+      "file": "models/flexible.json",
+      "sha256": "f898ba242b83d7dde84718c4dac9a70199a0fb6df7e3e064ced8055f03344f4a",
+      "checkpoint": "six-flexible-initial",
+      "element_intent": null,
+      "evaluation": {
+        "games": 28,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    }
+  }
+}

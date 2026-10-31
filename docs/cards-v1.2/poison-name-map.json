@@ -1,0 +1,151 @@
+{
+  "version": "1.2",
+  "element": "poison",
+  "status": "confirmed-naming-only",
+  "source_commit": "e84b80950be73e815d25d79cb8b8216771f30679",
+  "card_count": 28,
+  "renamed_count": 19,
+  "note": "键及original_name保持原卡标识。伤害机制毒爆不改名；原传奇毒爆显示为以毒淬锋，原史诗万毒爆显示为毒爆。毒涌保留原名。",
+  "cards": {
+    "万毒之源": {
+      "original_name": "万毒之源",
+      "display_name": "瘟疫领主",
+      "rarity": "specialization"
+    },
+    "毒爆": {
+      "original_name": "毒爆",
+      "display_name": "以毒淬锋",
+      "rarity": "legendary"
+    },
+    "瘟潮": {
+      "original_name": "瘟潮",
+      "display_name": "瘟疫之潮",
+      "rarity": "legendary"
+    },
+    "蚀命": {
+      "original_name": "蚀命",
+      "display_name": "蚕食生机",
+      "rarity": "legendary"
+    },
+    "蚀骨": {
+      "original_name": "蚀骨",
+      "display_name": "附骨之毒",
+      "rarity": "legendary"
+    },
+    "万毒爆": {
+      "original_name": "万毒爆",
+      "display_name": "毒爆",
+      "rarity": "epic"
+    },
+    "万毒蚀骨": {
+      "original_name": "万毒蚀骨",
+      "display_name": "万毒蚀骨",
+      "rarity": "epic"
+    },
+    "万蚀": {
+      "original_name": "万蚀",
+      "display_name": "蚀心",
+      "rarity": "epic"
+    },
+    "毒潮": {
+      "original_name": "毒潮",
+      "display_name": "烈性反应",
+      "rarity": "epic"
+    },
+    "毒龙": {
+      "original_name": "毒龙",
+      "display_name": "蛇吻",
+      "rarity": "epic"
+    },
+    "疫病": {
+      "original_name": "疫病",
+      "display_name": "疫病",
+      "rarity": "epic"
+    },
+    "蚀骨之触": {
+      "original_name": "蚀骨之触",
+      "display_name": "毒入膏肓",
+      "rarity": "epic"
+    },
+    "缓释毒素": {
+      "original_name": "缓释毒素",
+      "display_name": "慢性毒药",
+      "rarity": "epic"
+    },
+    "固毒": {
+      "original_name": "固毒",
+      "display_name": "固毒",
+      "rarity": "rare"
+    },
+    "枯潮": {
+      "original_name": "枯潮",
+      "display_name": "毒物滋养",
+      "rarity": "rare"
+    },
+    "毒囊": {
+      "original_name": "毒囊",
+      "display_name": "毒囊",
+      "rarity": "rare"
+    },
+    "毒涌": {
+      "original_name": "毒涌",
+      "display_name": "毒涌",
+      "rarity": "rare"
+    },
+    "爆裂": {
+      "original_name": "爆裂",
+      "display_name": "催命",
+      "rarity": "rare"
+    },
+    "腐息": {
+      "original_name": "腐息",
+      "display_name": "溃败",
+      "rarity": "rare"
+    },
+    "腐溃": {
+      "original_name": "腐溃",
+      "display_name": "催枯",
+      "rarity": "rare"
+    },
+    "腐潮": {
+      "original_name": "腐潮",
+      "display_name": "彼毒我药",
+      "rarity": "rare"
+    },
+    "蚀创": {
+      "original_name": "蚀创",
+      "display_name": "蚀创",
+      "rarity": "rare"
+    },
+    "蚀刻": {
+      "original_name": "蚀刻",
+      "display_name": "入髓",
+      "rarity": "rare"
+    },
+    "寻毒": {
+      "original_name": "寻毒",
+      "display_name": "寻药",
+      "rarity": "common"
+    },
+    "毒瓶": {
+      "original_name": "毒瓶",
+      "display_name": "涂毒",
+      "rarity": "common"
+    },
+    "毒针": {
+      "original_name": "毒针",
+      "display_name": "毒针",
+      "rarity": "common"
+    },
+    "毒引": {
+      "original_name": "毒引",
+      "display_name": "毒引",
+      "rarity": "common"
+    },
+    "循毒": {
+      "original_name": "循毒",
+      "display_name": "循毒",
+      "rarity": "common"
+    }
+  }
+}

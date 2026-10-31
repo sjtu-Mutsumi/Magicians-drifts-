@@ -1,0 +1,43 @@
+{
+  "version": "1.2",
+  "element": "water",
+  "status": "user-confirmed",
+  "scope": [
+    "legendary",
+    "specialization"
+  ],
+  "display_in_match": false,
+  "note": "保留稳定运行卡标识，定稿小字仅供后续卡牌特写使用；不修改技能文字、规则数据或局内展示。",
+  "cards": {
+    "深渊潮": {
+      "original_name": "深渊潮",
+      "display_name": "沧海横流",
+      "rarity": "legendary",
+      "flavor_text": "“回来时，把海也带上。”妹妹随口说。许多年后，那座内陆城有了自己的海岸线。"
+    },
+    "潮汐回响": {
+      "original_name": "潮汐回响",
+      "display_name": "潮汐回响",
+      "rarity": "legendary",
+      "flavor_text": "那枚海螺只被吹响过一次。此后百年，迷航的船仍循着余音归港。"
+    },
+    "生命之泉": {
+      "original_name": "生命之泉",
+      "display_name": "生命之泉",
+      "rarity": "legendary",
+      "flavor_text": "碑上的咒文早已磨平。泉水仍穿过整座山腹，去浇另一面的麦田。"
+    },
+    "血潮": {
+      "original_name": "血潮",
+      "display_name": "浴血狂澜",
+      "rarity": "legendary",
+      "flavor_text": "“还能起浪吗？”他摊开手掌，让那点殷红落进水里。“你看。”"
+    },
+    "潮汐之心": {
+      "original_name": "潮汐之心",
+      "display_name": "潮汐之心",
+      "rarity": "specialization",
+      "flavor_text": "拆下最后一圈绷带时，他听见了潮声。可这里离海，还有三百里。"
+    }
+  }
+}

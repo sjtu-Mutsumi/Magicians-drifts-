@@ -1,0 +1,260 @@
+{
+  "status": "independent_simulation_v1.2",
+  "economy_profile": "growth-v7",
+  "free_purchase": {
+    "rounds_1_to_2": [
+      "common"
+    ],
+    "rounds_3_to_4": [
+      "common",
+      "rare"
+    ],
+    "scope": "one_per_round_both_faces"
+  },
+  "deletions": {
+    "rounds_1_to_3": [
+      0,
+      []
+    ],
+    "rounds_4_to_6": [
+      1,
+      [
+        0
+      ]
+    ],
+    "rounds_7_plus": [
+      2,
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "rarity_order": [
+    "common",
+    "rare",
+    "epic",
+    "legendary"
+  ],
+  "rarities": {
+    "1": [
+      [
+        0.8,
+        0.2,
+        0,
+        0
+      ],
+      [
+        0.65,
+        0.35,
+        0,
+        0
+      ]
+    ],
+    "2": [
+      [
+        0.7,
+        0.28,
+        0.02,
+        0
+      ],
+      [
+        0.565,
+        0.4,
+        0.035,
+        0
+      ]
+    ],
+    "3": [
+      [
+        0.61,
+        0.35,
+        0.04,
+        0
+      ],
+      [
+        0.49,
+        0.45,
+        0.06,
+        0
+      ]
+    ],
+    "4": [
+      [
+        0.52,
+        0.4,
+        0.08,
+        0
+      ],
+      [
+        0.39,
+        0.5,
+        0.11,
+        0
+      ]
+    ],
+    "5": [
+      [
+        0.425,
+        0.45,
+        0.125,
+        0
+      ],
+      [
+        0.275,
+        0.55,
+        0.175,
+        0
+      ]
+    ],
+    "6": [
+      [
+        0.345,
+        0.5,
+        0.15,
+        0.005
+      ],
+      [
+        0.2225,
+        0.55,
+        0.22,
+        0.0075
+      ]
+    ],
+    "7": [
+      [
+        0.29,
+        0.5,
+        0.2,
+        0.01
+      ],
+      [
+        0.155,
+        0.55,
+        0.28,
+        0.015
+      ]
+    ],
+    "8_plus": [
+      [
+        0.1,
+        0.48,
+        0.4,
+        0.02
+      ],
+      [
+        0.05,
+        0.42,
+        0.5,
+        0.03
+      ]
+    ]
+  },
+  "first_face_legendary_guarantees": {
+    "8": 3,
+    "10": 3,
+    "12": 3
+  },
+  "second_face_legendary_guarantees": {
+    "8": 1,
+    "10": 1,
+    "12": 1
+  },
+  "first_face_guaranteed_route_target": 2,
+  "second_face_guarantee_policy": "upgrade_one_lowest_rarity_active_slot_after_normal_roll_even_if_other_legendary_exists",
+  "guaranteed_slot_indices_zero_based": [
+    0,
+    1,
+    2
+  ],
+  "refresh_slot_mapping": "same_index_skip_purchased_no_compaction",
+  "rarity_templates": "pregenerate_both_faces_for_all_players",
+  "concrete_cards": "first_faces_joint_then_refresh_faces_serial",
+  "pre_specialization_enchantment_count": {
+    "2": 0.2,
+    "3": 0.6,
+    "4": 0.2
+  },
+  "pre_specialization_element_weights": {
+    "fire": 1,
+    "water": 1,
+    "earth": 1,
+    "wind": 1,
+    "poison": 1
+  },
+  "refresh_bought_element_admission": 0.1,
+  "post_specialization_enchantment_share": 0.65,
+  "legendary_type_order": [
+    "route",
+    "stacking",
+    "generic_engine",
+    "generic_other"
+  ],
+  "legendary_types": {
+    "6_to_8": [
+      0.7,
+      0.1,
+      0.15,
+      0.05
+    ],
+    "9_plus": [
+      0.3,
+      0.1,
+      0.5,
+      0.1
+    ]
+  },
+  "generic_engine_legendaries": [
+    "禁咒目录",
+    "禁忌知识"
+  ],
+  "same_legal_bucket_card_weights": "remaining_free_copies",
+  "hard_caps": {
+    "round_2_epic_first": 0.2,
+    "round_2_epic_both": 0.5,
+    "round_6_legendary_both": 0.1,
+    "round_7_legendary_both": 0.2
+  },
+  "legendary_inventory_scope": "physical_copy_unique_owned_and_displayed_generic_has_two_copies",
+  "pool_scope": "shared_all_rarities",
+  "nonlegendary_copy_counts": {
+    "common": {
+      "enchantment": 6,
+      "generic": 8
+    },
+    "rare": {
+      "enchantment": 4,
+      "generic": 6
+    },
+    "epic": {
+      "enchantment": 3,
+      "generic": 4
+    }
+  },
+  "legendary_copy_counts": {
+    "generic": 2,
+    "route": 1,
+    "stacking": 1
+  },
+  "starter_cards_consume_pool": false,
+  "legendary_seen_scope": "physical_copy_all_generated_faces_all_players_current_round",
+  "per_player_legendary_name_seen_scope": "both_faces_current_round",
+  "concrete_card_sampling": "remaining_free_copies_weighted_subject_to_feasibility",
+  "refresh_inventory_policy": "release_own_unpurchased_offers_then_generate_atomically_in_server_order",
+  "eliminated_inventory_return": "next_round",
+  "inventory_shortage_exception": "allowed_minimize_guarantee_and_type_deviation",
+  "unresolved_policy": "Rules accepted 2026-10-23; AI strength and earlier duration targets are not certified.",
+  "card_copy_overrides": {},
+  "pre_progress_weight_per_card": 0,
+  "nonlegendary_copy_uniformity": "same rarity and same enchantment/generic category must have equal copies; hard constraint",
+  "version": "1.2",
+  "starter_cards_offer_eligible": false,
+  "starter_names": [
+    "攻击强化",
+    "防御强化",
+    "护盾",
+    "检索附魔",
+    "短促",
+    "重洗"
+  ]
+}

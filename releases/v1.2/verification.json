@@ -1,0 +1,84 @@
+{
+  "audit": {
+    "cards": 183,
+    "stock": 677,
+    "texts_changed": 35,
+    "numeric_definitions_changed": [],
+    "combat_core_changed": [],
+    "ai_feature_changes": {},
+    "contracts_match": true,
+    "dispatch_coverage": 183,
+    "baseline": "324000-324999 additive evaluation"
+  },
+  "replay": {
+    "scope": "deterministic replay, not new balance testing",
+    "rooms": 10,
+    "battles": 286,
+    "all_exact": true,
+    "rows": [
+      {
+        "seed": 324000,
+        "exact_match": true,
+        "battles": 28,
+        "sha256": "42aa7faac59e7fcd7b209ffabffdf98d93fbda4a4c97dd9f3a312db7900764a0"
+      },
+      {
+        "seed": 324001,
+        "exact_match": true,
+        "battles": 29,
+        "sha256": "7a9be7dba9e315929c41f4e9871f20ac02c3bd77bac9d3df430cce6210d7cdf3"
+      },
+      {
+        "seed": 324002,
+        "exact_match": true,
+        "battles": 27,
+        "sha256": "29e2d34268c5fa6dca37930bfdc6cc80eb5b14a08c9a3113d702375598093acc"
+      },
+      {
+        "seed": 324003,
+        "exact_match": true,
+        "battles": 26,
+        "sha256": "f200f00abcbc889b4c423ff32fd7563566c20dcc95d2e8c4e1764116bb3e01cc"
+      },
+      {
+        "seed": 324004,
+        "exact_match": true,
+        "battles": 27,
+        "sha256": "b69f4fe0731fcc4c1b9aa6c702e2090c64b9b1df5e50a0c29fd910a9b7720e78"
+      },
+      {
+        "seed": 324800,
+        "exact_match": true,
+        "battles": 27,
+        "sha256": "f56e2961f7b56653ce75866b247526fda16910407cb9af813142090254a83596"
+      },
+      {
+        "seed": 324801,
+        "exact_match": true,
+        "battles": 30,
+        "sha256": "1be6797813930fe217021a971658a0c4c798ad191c6fe73cb275f5a7c8f3be7c"
+      },
+      {
+        "seed": 324802,
+        "exact_match": true,
+        "battles": 30,
+        "sha256": "a5613b26277192d004d5477014ddc5fe31b1d18e3e946ddbb4dcff172f22bdff"
+      },
+      {
+        "seed": 324803,
+        "exact_match": true,
+        "battles": 34,
+        "sha256": "3f74c33cffba66a2f911c63f8a1691fc8b8aaa891b5a1b251315475c0eef73ee"
+      },
+      {
+        "seed": 324804,
+        "exact_match": true,
+        "battles": 28,
+        "sha256": "1e922f611cd57752e69801db8e13c24f546de1234aca230c13f7578e59cc0a03"
+      }
+    ]
+  },
+  "regressions": 144,
+  "regression_log_sha256": "d249e95969f06f71fa63b673d8bf59ac13478a7cdd7091b181e5a94c8523a159",
+  "notes": "Card copy clarified; combat core and AI static features match the tested 1000-room baseline."
+}
