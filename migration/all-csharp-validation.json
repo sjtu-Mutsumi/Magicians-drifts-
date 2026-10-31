@@ -1,0 +1,557 @@
+{
+  "status": "passed",
+  "completed_at": "2026-10-31T17:07:07.1388553+08:00",
+  "version": "1.2",
+  "edition": "all-csharp-toolchain",
+  "runtime": "native-csharp",
+  "python_required": false,
+  "baseline_commit": "0c0150dbeda044f06c0e31d02a157aa56c7106c8",
+  "previous_runtime_only_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+  "retired_python_source_files": 79,
+  "remaining_active_python_files": 0,
+  "clean_environment": "PATH restricted to Windows System32; Python path invalid; no Python sources present",
+  "cards": 183,
+  "stock": 677,
+  "ai_models": 6,
+  "renamed_cards": 103,
+  "flavor_in_match": false,
+  "regressions": {
+    "foundation": "passed",
+    "mechanics": "passed",
+    "static": {
+      "checks": 532,
+      "training_policy_checks": 55,
+      "corruption_guard_checks": 12
+    },
+    "training": {
+      "status": "passed",
+      "checks": 41526,
+      "full_tournaments": 3,
+      "proposal_cases": 8,
+      "reference_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "python_required": false
+    },
+    "oracle": {
+      "card": 366,
+      "battle": 15,
+      "session": 7
+    },
+    "business": {
+      "operations": 1214,
+      "original_test_names": 112
+    },
+    "protocol": {
+      "requests": 27,
+      "catalog_cards": 183,
+      "routes": 15,
+      "privacy": "passed",
+      "deterministic_decision": "passed"
+    },
+    "status": "passed",
+    "python_required": false,
+    "seconds": 11.1904933
+  },
+  "training": {
+    "status": "passed",
+    "runtime": "native-csharp",
+    "python_required": false,
+    "fixture_reference_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+    "fixture_sha256": "b09fa494c03c4a089a19a52d44f2429b7a88a7bfe4a1ed4e7f0709a8fbfa61d4",
+    "differential": {
+      "checks": 41526,
+      "failures": 0,
+      "full_tournaments": 3,
+      "proposal_cases": 8,
+      "float_tolerance": 1E-11,
+      "scope": [
+        "full card statistics",
+        "cohort statistics",
+        "selected/control metrics",
+        "paired score/win confidence intervals",
+        "stage metrics",
+        "deck descriptions",
+        "mechanism features",
+        "mechanism and thin gradients",
+        "8 free/medium/dual/outcome seeded proposals",
+        "generic/element/six-style tournament protocol"
+      ]
+    },
+    "smoke_runs": [
+      {
+        "mode": "mechanism",
+        "exit_code": 0,
+        "episodes": 8,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/mechanism/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "thin",
+        "exit_code": 0,
+        "episodes": 8,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/thin/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "medium",
+        "exit_code": 0,
+        "episodes": 8,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/medium/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "free",
+        "exit_code": 0,
+        "episodes": 8,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/free/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "outcome",
+        "exit_code": 0,
+        "episodes": 8,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/outcome/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "dual",
+        "exit_code": 0,
+        "episodes": 12,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/dual/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "element",
+        "exit_code": 0,
+        "episodes": 30,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/element/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "element-paired",
+        "exit_code": 0,
+        "episodes": 60,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/element-paired/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "population",
+        "exit_code": 0,
+        "episodes": 120,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/population-stable/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      },
+      {
+        "mode": "six",
+        "exit_code": 0,
+        "episodes": 96,
+        "skipped": 0,
+        "finished": true,
+        "source_hashes_verified": true,
+        "report": "runtime/csharp-tooling/training-smoke-final/six/training.json",
+        "test_budget": {
+          "rounds": 1,
+          "train_per_group": 2,
+          "validation_per_group": 2,
+          "reserved_per_group": 2,
+          "workers": 2
+        }
+      }
+    ],
+    "smoke_episodes": 358,
+    "full_original_training_budgets_executed": false,
+    "default_models_changed": false,
+    "coverage": [
+      {
+        "python_module": "analytics,cohort",
+        "csharp": "Training/Statistics.cs",
+        "command": "analyze / cohort",
+        "default_episodes": null
+      },
+      {
+        "python_module": "__main__,quick_test",
+        "csharp": "Training/TrainingCommands.cs",
+        "command": "sim / quick-test",
+        "default_episodes": 5
+      },
+      {
+        "python_module": "train",
+        "csharp": "Training/LearningMetrics.cs + Training/TrainingRunner.cs",
+        "command": "train --mode mechanism",
+        "default_episodes": 1000
+      },
+      {
+        "python_module": "thin_train",
+        "csharp": "Training/LearningMetrics.cs + Training/TrainingRunner.cs",
+        "command": "train --mode thin",
+        "default_episodes": 2000
+      },
+      {
+        "python_module": "medium_train",
+        "csharp": "Training/Proposals.cs + Training/TrainingRunner.cs",
+        "command": "train --mode medium",
+        "default_episodes": 500
+      },
+      {
+        "python_module": "free_train",
+        "csharp": "Training/LearningMetrics.cs + Training/Proposals.cs + Training/TrainingRunner.cs",
+        "command": "train --mode free",
+        "default_episodes": 1000
+      },
+      {
+        "python_module": "dual_train",
+        "csharp": "Training/Proposals.cs + Training/TrainingRunner.cs",
+        "command": "train --mode dual",
+        "default_episodes": 1000
+      },
+      {
+        "python_module": "outcome_train",
+        "csharp": "Training/LearningMetrics.cs + Training/Proposals.cs + Training/TrainingRunner.cs",
+        "command": "train --mode outcome",
+        "default_episodes": 1000
+      },
+      {
+        "python_module": "element_train",
+        "csharp": "Training/Proposals.cs + Training/TrainingRunner.cs",
+        "command": "train --mode element",
+        "default_episodes": 1500
+      },
+      {
+        "python_module": "element_paired_train",
+        "csharp": "Training/LearningMetrics.cs + Training/TrainingRunner.cs",
+        "command": "train --mode element-paired",
+        "default_episodes": 3000
+      },
+      {
+        "python_module": "population_train",
+        "csharp": "Training/TrainingRunner.cs",
+        "command": "train --mode population",
+        "default_episodes": 1500
+      },
+      {
+        "python_module": "six_train",
+        "csharp": "Training/TrainingRunner.cs",
+        "command": "train --mode six",
+        "default_episodes": 1000
+      },
+      {
+        "python_module": "learning_policy,legacy_policy,exploration",
+        "csharp": "Scripts/Native/Policy/Policy.cs + Construction.cs",
+        "command": "shared native runtime already migrated",
+        "default_episodes": null
+      }
+    ],
+    "protections": [
+      "distinct models via deep clones",
+      "CPython-compatible seeded RNG",
+      "bounded per-mode update rules",
+      "training-only gradients",
+      "paired same-seed opponents",
+      "balanced route and internal/external assignment",
+      "validation-only checkpoint selection",
+      "population branch selection before final test",
+      "frozen heldout with no feedback",
+      "complete input/source-model SHA checks",
+      "no default model replacement",
+      "explicit deployment verifies clean guard and updates only ai-policy + one manifest hash",
+      "failed source-hash guard marks partial report unverified"
+    ],
+    "intentional_cli_changes": [
+      "Unreachable machine-specific research paths replaced by --source/--anchor/--resume-from arguments; defaults are declared bundled current models, not the lost historical checkpoints.",
+      "Default worker count is 1; --workers provides deterministic bounded parallel jobs.",
+      "Old script automatic default-policy writes require explicit --deploy and the original mode-specific gate, through the guarded DataCommands deployment API.",
+      "Human-readable report layout is unified; complete original observational metrics remain in statistics.json."
+    ],
+    "retired_historical_helper": "train.historical depended on an already archived 239-card Python engine/research snapshot. It is not restored or executed as a current 183-card training step. Original reference remains in Git history; current-rule fixtures/replay are independent C#.",
+    "intermediate_retries": [
+      "Concurrent DataCommands/TestCommands/PackageCommands edits were correctly rejected by training input-SHA protection; stable runs listed above were rerun and passed.",
+      "Custom six-mode nonzero heldout budget exposed overlapping seed allocation; offset was corrected and final 96-episode six smoke passed."
+    ]
+  },
+  "source_integrity": {
+    "status": "passed",
+    "runtime": "native-csharp",
+    "cards": 183,
+    "stock": 677,
+    "models": 6,
+    "historical_zip_integrity": {
+      "status": "passed",
+      "entries": 174,
+      "current_frozen_data_files": 25
+    },
+    "retired_source_reference": {
+      "status": "historical-reference",
+      "references": 79,
+      "present_source_hashes_verified": 0,
+      "absent_sources_not_offline_verified": 79,
+      "sources_also_matching_historical_zip": 52,
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97"
+    },
+    "current_native_integrity": {
+      "status": "passed",
+      "files": 210,
+      "added_removed_or_changed_source_fails": true
+    }
+  },
+  "data_parity": {
+    "presentation_current_exact": true,
+    "layer_contract_current_exact": true,
+    "layer_audit_markdown_current_exact": true,
+    "catalogue_current_exact": true,
+    "catalogue_old_stable_generator_exact": true,
+    "catalog_export_semantic": true,
+    "pool_export_semantic": true
+  },
+  "integrity_negative_tests": [
+    {
+      "case": "baseline with retired sources present",
+      "passed": true,
+      "exit_code": 0,
+      "message": "V12_RELEASE_VERIFIED cards=183 stock=677 historical_zip=true retired_sources=reference current_native=true"
+    },
+    {
+      "case": "all 79 Python files removed; no execution dependency",
+      "passed": true,
+      "exit_code": 0,
+      "message": "V12_RELEASE_VERIFIED cards=183 stock=677 historical_zip=true retired_sources=reference current_native=true"
+    },
+    {
+      "case": "changed current C# fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Current native implementation changed: Scripts/Native/Foundation/Q.cs"
+    },
+    {
+      "case": "freeze without explicit refresh never reseals changed source",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Current native implementation changed: Scripts/Native/Foundation/Q.cs"
+    },
+    {
+      "case": "C# line endings normalized across Windows/Git",
+      "passed": true,
+      "exit_code": 0,
+      "message": "V12_RELEASE_VERIFIED cards=183 stock=677 historical_zip=true retired_sources=reference current_native=true"
+    },
+    {
+      "case": "added current C# fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Current native source/data set changed: added or removed protected files"
+    },
+    {
+      "case": "removed current C# fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Current native source/data set changed: added or removed protected files"
+    },
+    {
+      "case": "changed card data fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Frozen v1.2 card snapshot checksum mismatch"
+    },
+    {
+      "case": "changed approved name or display data fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Current native implementation changed: Data/Presentation/card-display.json"
+    },
+    {
+      "case": "changed six-model manifest fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Current native implementation changed: releases/ai-v1.2-six-styles-20261029/manifest.json"
+    },
+    {
+      "case": "changed retired reference manifest fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Retired source reference changed after migration sealing"
+    },
+    {
+      "case": "changed historical ZIP fails",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Historical frozen ZIP checksum mismatch"
+    },
+    {
+      "case": "frozen current rule data cannot be resealed even explicitly",
+      "passed": true,
+      "exit_code": 1,
+      "message": "失败：Frozen v1.2 data changed: tools/sim_v12/rules/combat.json"
+    },
+    {
+      "case": "clean restored source verifies after all probes",
+      "passed": true,
+      "exit_code": 0,
+      "message": "V12_RELEASE_VERIFIED cards=183 stock=677 historical_zip=true retired_sources=reference current_native=true"
+    }
+  ],
+  "deployment_negative_tests": [
+    {
+      "case": "added Scripts/Native/Foundation/new.py rejected",
+      "passed": true
+    },
+    {
+      "case": "added new.pyc rejected",
+      "passed": true
+    },
+    {
+      "case": "added new.pyd rejected",
+      "passed": true
+    },
+    {
+      "case": "added python312.dll rejected",
+      "passed": true
+    },
+    {
+      "case": "added python.exe rejected",
+      "passed": true
+    },
+    {
+      "case": "gate false leaves policy and manifest unchanged",
+      "passed": true
+    },
+    {
+      "case": "stale expected policy SHA refused",
+      "passed": true
+    },
+    {
+      "case": "dirty C# source refuses deployment without touching protected files",
+      "passed": true
+    },
+    {
+      "case": "clean explicit gated deployment changes only allowed policy fingerprint",
+      "passed": true
+    },
+    {
+      "case": "deployed source verifies with unchanged six-model bundle",
+      "passed": true
+    }
+  ],
+  "final_boundary_tests": [
+    {
+      "case": "simulation rejects dirty source before creating training output",
+      "passed": true
+    },
+    {
+      "case": "missing EXE rejected even when removed from integrity manifest",
+      "passed": true
+    }
+  ],
+  "godot_scenes": [
+    "V12SinglePlayerRunner",
+    "V12LifecycleRunner",
+    "MainMenuFlowRunner",
+    "V12CardUiRunner",
+    "V12DeletionRunner",
+    "V12SelectionRunner",
+    "V12CombatIntegrationRunner"
+  ],
+  "graphical_transition": "passed: V12_TRANSITION_OK graphical-buy-play overlay-viewport-size=OK",
+  "packaging": {
+    "tool": "C# build-portable/audit-package/archive",
+    "files": 248,
+    "integrity_entries": 247,
+    "python_files": [],
+    "python_disabled_full_match_smoke": "passed",
+    "required_ui_resources_present": 7,
+    "release_scene_path_override": "not supported by release engine; source scene regressions and exported resource presence checked",
+    "archive": "Magicians-v1.2-AllCSharp-Windows-x64.zip",
+    "bytes": 73448268,
+    "sha256": "dafce8cdd2925dd0a9b234c0c4e48a467d0801232a325ebcde7d83cdb3e5dcb4"
+  },
+  "build": {
+    "warnings": 0,
+    "errors": 0,
+    "sdk": "10.0.402",
+    "target_framework": "net8.0",
+    "godot": "4.7.2.stable.mono.official.ed1daf0bf"
+  },
+  "limits": [
+    "Finite regression coverage is not a proof over all possible inputs.",
+    "Ten training modes used reduced budgets (358 episodes); original thousand-game training budgets were not fully rerun.",
+    "Historical 239-card research replay remains in old Git history; current tools train the accepted 183-card version."
+  ]
+}

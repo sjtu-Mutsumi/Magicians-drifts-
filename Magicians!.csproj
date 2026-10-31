@@ -9,5 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="migration/**/*.cs" />
+    <Compile Remove="tools/**/*.cs" />
+    <Compile Remove="runtime/**/*.cs" />
   </ItemGroup>
 </Project>

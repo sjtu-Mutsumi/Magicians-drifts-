@@ -1,0 +1,722 @@
+{
+  "schema_version": 1,
+  "version": "1.2",
+  "status": "retired-reference",
+  "git_repository": "sjtu-Mutsumi/Magicians-drifts-",
+  "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+  "original_collaborator_commit": "0c0150dbeda044f06c0e31d02a157aa56c7106c8",
+  "note": "Historical evidence only. Missing source is not verified offline; current executable C# is protected by native-source-manifest.json.",
+  "files": {
+    "migration/EconomyTests/compare.py": {
+      "sha256_at_retirement": "4c06ffa2dc0c5ee44edb975ee525cd945b0353c618178019beefae1f0266bd74",
+      "git_blob_sha1": "f41811ada3f0558c57e9cc63457413e387b960cf",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/EconomyTests/compare_long.py": {
+      "sha256_at_retirement": "0bb19e9a83224b2532e1294e0fd7019aa8572e3db62a5027c4cc795108925be1",
+      "git_blob_sha1": "72e42160475a6238fcce875894e37dea4335f6ac",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/EconomyTests/invalid_protocol.py": {
+      "sha256_at_retirement": "8021930ec36c2c906e71565e40b504cb7dbbe609edcd7e0be63796f4e0d603b2",
+      "git_blob_sha1": "b0295a012a6c7b6e2277fef45d7938ef4b226ec1",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/FoundationTests/audit_native_package.py": {
+      "sha256_at_retirement": "374cd8efd45a8810030e46f5ee0a540f6cf2b9d5fcce612e7d34bd1e91bd7bdf",
+      "git_blob_sha1": "0bcf54aeab237d83de0c49b47db29ad26c73ccb5",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/FoundationTests/generate_oracle.py": {
+      "sha256_at_retirement": "c0aaeb42c15b5877d26e2b94d8c691532e84bd07517685817e771b911adbf72b",
+      "git_blob_sha1": "21bda103f06b70013971b740efaba371a46581a0",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/FoundationTests/mixed_battle_parity.py": {
+      "sha256_at_retirement": "d2299088ef6e1de0a8d90faf31fa519920ab5ea7ca9223924c30baba87cc4be6",
+      "git_blob_sha1": "11a96560b1d0260eb56ba17be9524560cdfd3ade",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/capture_oracle.py": {
+      "sha256_at_retirement": "b73985ee793d1588687ed14a960fe6ce78c3162b6b7ab7341d3354a8ae9f5ae1",
+      "git_blob_sha1": "d84c11240b9bee09f5670b36b6b11df31f62e5f7",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "migration/diff_oracle.py": {
+      "sha256_at_retirement": "ff35dc5d70c8353bd6370cc2238f3c01df63b3c57183bb65c74aa2425e1fb41d",
+      "git_blob_sha1": "92636087fa85e85e88888d2f03c0d5711416ee92",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/audit_v12_cards.py": {
+      "sha256_at_retirement": "9db00669e7d6dd342f270f8708f45cfab88337278b426e1b818de70d8bfc9dff",
+      "git_blob_sha1": "41be74b2656f61ab48123c3b673debb45a168ba5",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "9db00669e7d6dd342f270f8708f45cfab88337278b426e1b818de70d8bfc9dff",
+      "historical_zip_sha256": "9db00669e7d6dd342f270f8708f45cfab88337278b426e1b818de70d8bfc9dff",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/audit_v12_layers.py": {
+      "sha256_at_retirement": "84d49eede497e9fec2ac2f4f5462b5d1c70df11df6edb803edcbadcb94b10000",
+      "git_blob_sha1": "897b23275bb6591e5ef964efa603defa166331bb",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "84d49eede497e9fec2ac2f4f5462b5d1c70df11df6edb803edcbadcb94b10000",
+      "historical_zip_sha256": "84d49eede497e9fec2ac2f4f5462b5d1c70df11df6edb803edcbadcb94b10000",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/build_v12_catalogue.py": {
+      "sha256_at_retirement": "df72c4a0da6fabece784fae3b5233c0ac83d7d667f1df8fa05e03389f137d8f4",
+      "git_blob_sha1": "e7aaa29ba8dcea3d6ededc4cfb67f3807f9fe014",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "df72c4a0da6fabece784fae3b5233c0ac83d7d667f1df8fa05e03389f137d8f4",
+      "historical_zip_sha256": "df72c4a0da6fabece784fae3b5233c0ac83d7d667f1df8fa05e03389f137d8f4",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/build_v12_presentation.py": {
+      "sha256_at_retirement": "b943e8bf673342440be408a6dd6949b595e83b6ede742123d8eb4222009e3013",
+      "git_blob_sha1": "9f35e8ebba781202b1f623f9596fb7938d8d7dbf",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/__init__.py": {
+      "sha256_at_retirement": "dfbe5f185cc18dc4b631ee7d48c038f66a81d7baf08f2e24eb75315a6c040087",
+      "git_blob_sha1": "8521c0a217351fe420ec3146c891003bad83a1aa",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/bridge.py": {
+      "sha256_at_retirement": "928d73bc0dd58a5f3b79a0c60a4ac54331fbac532fab980e3de427374c4b0c34",
+      "git_blob_sha1": "75502d452c0b097e77309fa85f9e9b28f9655a3d",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/match.py": {
+      "sha256_at_retirement": "761d77a71161f00b3d3b1af9781c974984cdeb2551e20f35e52c969e96d363e5",
+      "git_blob_sha1": "d7a9338badb28f2269b1735d2642e2ef718b5b10",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/test_bridge.py": {
+      "sha256_at_retirement": "8039e1ebac816c4543bd6d82dece0bd5f611ab6fc426b560b6ed30de960be68c",
+      "git_blob_sha1": "0307b33f6a6bd67084ee1e17b7f6bdefdc98df17",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/test_match.py": {
+      "sha256_at_retirement": "78540f383e89d3192bc6515fd5a12fb6583e0cc580a1e4af2407344a211893c2",
+      "git_blob_sha1": "17cd37f0533fcb8dbccd204861db43e375dcd99e",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/freeze_v12.py": {
+      "sha256_at_retirement": "65f6fe3f5248f24171de28d3b2762f16eb4c26b2627b15113a104ef972a0ff7c",
+      "git_blob_sha1": "a6bfde7b5197e847ee71d428947b7e156185f939",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "65f6fe3f5248f24171de28d3b2762f16eb4c26b2627b15113a104ef972a0ff7c",
+      "historical_zip_sha256": "65f6fe3f5248f24171de28d3b2762f16eb4c26b2627b15113a104ef972a0ff7c",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/installer/build_v12_portable.py": {
+      "sha256_at_retirement": "d866d92ab7105f9974fa7ee8be2960c3594b21584e01d7ce27e078e884bf2e29",
+      "git_blob_sha1": "03385c3007e8c95732a44f076269a61ee46bfd85",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/__init__.py": {
+      "sha256_at_retirement": "0e11ae776df77bb7eea4e2f9b818ecb59c8b14f8d77f6e86a1239cabbdb8ca17",
+      "git_blob_sha1": "63971285af27b166843443ecb0333003bd587e6a",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "0e11ae776df77bb7eea4e2f9b818ecb59c8b14f8d77f6e86a1239cabbdb8ca17",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/__main__.py": {
+      "sha256_at_retirement": "73ff4a6f263f311557aac79bd940a3f222190ff1a15a2997a45232239cbac94d",
+      "git_blob_sha1": "792323266c497abe72044547ee59b2b9290e57d9",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "73ff4a6f263f311557aac79bd940a3f222190ff1a15a2997a45232239cbac94d",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/analytics.py": {
+      "sha256_at_retirement": "683351248816291c8c9eaa3031fa268d6cac12dbefba5b3aed672ccf67ff420d",
+      "git_blob_sha1": "513eedd162361f547319ee321679d1fc28951e1c",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "683351248816291c8c9eaa3031fa268d6cac12dbefba5b3aed672ccf67ff420d",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/catalog.py": {
+      "sha256_at_retirement": "014be3a3e909b8b81628b458ce42bb503546d6df22acc6f0e3faefb00c276c85",
+      "git_blob_sha1": "f6e33f57f3ed6144a6b8f44df68293466953f1cc",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "014be3a3e909b8b81628b458ce42bb503546d6df22acc6f0e3faefb00c276c85",
+      "historical_zip_sha256": "f527e8a5db987b807be592e752cc1a79614f66d8c920da3643b143302bc90088",
+      "zip_matches_retired_source": false,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/cohort.py": {
+      "sha256_at_retirement": "2e919b2a73d0f64d5fbe71c61e8cac4359c695546db73f4faac6385fa094f553",
+      "git_blob_sha1": "d1a2e86b578be4a56abc1a611aa361b743fcd3d0",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "2e919b2a73d0f64d5fbe71c61e8cac4359c695546db73f4faac6385fa094f553",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/construction.py": {
+      "sha256_at_retirement": "de1d60481a72805bebbd23e70e17250ec95df31065b4f199c9bda41bb1678b30",
+      "git_blob_sha1": "a85cbea735e7ee58f094a46c22b034c114080017",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "de1d60481a72805bebbd23e70e17250ec95df31065b4f199c9bda41bb1678b30",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/construction_templates.py": {
+      "sha256_at_retirement": "fa0f7c50e3c61463fc8e3d43de493ed6428a8bbe4db1eee691094102c9ecb57a",
+      "git_blob_sha1": "c0b7a5a7073aa9a12944ba55cdd03e428472989f",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "fa0f7c50e3c61463fc8e3d43de493ed6428a8bbe4db1eee691094102c9ecb57a",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/dual_train.py": {
+      "sha256_at_retirement": "167c616f08ec6d7d33774f6eaebf3abaf2c8e9e3290401ab787d2164ce0c4365",
+      "git_blob_sha1": "d432ee41461f50db5037395541388d1c0567237d",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "db06c3e294300adb0d4cb11410998b72ccc3971339c8f92eed4db98de6536ee4",
+      "zip_matches_retired_source": false,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/effects.py": {
+      "sha256_at_retirement": "f0eb917856f8ca6fc0b6c8719265042998b76fa6c0db38e815c94f0a12b1b660",
+      "git_blob_sha1": "3fcda4aee438bedbada1d27a1199f925e0fde77b",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "f0eb917856f8ca6fc0b6c8719265042998b76fa6c0db38e815c94f0a12b1b660",
+      "historical_zip_sha256": "f0eb917856f8ca6fc0b6c8719265042998b76fa6c0db38e815c94f0a12b1b660",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/element_paired_train.py": {
+      "sha256_at_retirement": "e3c38aed0673c3f384514eec303e6da093f74d8dd433cfe158c6ba65300efc12",
+      "git_blob_sha1": "9eac751fda4d4296838824a971df86a473f402ac",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/element_train.py": {
+      "sha256_at_retirement": "a38db6e06505282c4320cddf3f86fa13fa926c0c2640f3385bfa5269c20f870e",
+      "git_blob_sha1": "cf679bc74703a373f1f57b86fba931ca0c0132ef",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "a38db6e06505282c4320cddf3f86fa13fa926c0c2640f3385bfa5269c20f870e",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/engine.py": {
+      "sha256_at_retirement": "7a10ee92fe068dda32a57a07935378999048ee39d12d033c46cc3314ca9a21f2",
+      "git_blob_sha1": "1e9cbbb05c03837f9bbc09ca2f83d35fb834f2b1",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "7a10ee92fe068dda32a57a07935378999048ee39d12d033c46cc3314ca9a21f2",
+      "historical_zip_sha256": "7a10ee92fe068dda32a57a07935378999048ee39d12d033c46cc3314ca9a21f2",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/exploration.py": {
+      "sha256_at_retirement": "ea2cbd3c60adf372c6006f4e64a37cb12571ffe20a804cf8b77d9f1b865497af",
+      "git_blob_sha1": "2a14c6244c65cfda1256aa0489c219871e15f52f",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "ea2cbd3c60adf372c6006f4e64a37cb12571ffe20a804cf8b77d9f1b865497af",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/free_train.py": {
+      "sha256_at_retirement": "a4eee428fe712cd6da0a5d5fa257c06ee0562a0d44c2729eedc5b44173b61f83",
+      "git_blob_sha1": "598e38557cdc582ef410b225f809aea44621bb4e",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "a4eee428fe712cd6da0a5d5fa257c06ee0562a0d44c2729eedc5b44173b61f83",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/learning_policy.py": {
+      "sha256_at_retirement": "ef4315d9ca76ff6a24850733a3bffef93b96ad2de0d55c926d5c2b9e4ef7822f",
+      "git_blob_sha1": "1223783ce9b1608d9e2575275aee46c935939839",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "ef4315d9ca76ff6a24850733a3bffef93b96ad2de0d55c926d5c2b9e4ef7822f",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/legacy_policy.py": {
+      "sha256_at_retirement": "bc69573feb330006e9595985d51b2ea3fe41e994d2ca94183ac11ddbe79c989f",
+      "git_blob_sha1": "3ebee5eed64eaa9a7d1b25d929a721b7292556e2",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "bc69573feb330006e9595985d51b2ea3fe41e994d2ca94183ac11ddbe79c989f",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/locked.py": {
+      "sha256_at_retirement": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+      "git_blob_sha1": "c3de7cb2d559a0fcb53f70d09b0ea5410d7bc86e",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+      "historical_zip_sha256": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/mechanics.py": {
+      "sha256_at_retirement": "c1072acb3baaf06ae1a62294e73c9871fbf9ba34f40080f76722a30ad4748fc2",
+      "git_blob_sha1": "e86340de290dfa5ba57731cf6db639b9dff8949e",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "c1072acb3baaf06ae1a62294e73c9871fbf9ba34f40080f76722a30ad4748fc2",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/medium_train.py": {
+      "sha256_at_retirement": "56ac6a620b17bede1603276f82f77b3d11a03290abb70e471629469e03486a38",
+      "git_blob_sha1": "8fdceb376e243fe5c53fe4c46b995cb9ec9ed096",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "56ac6a620b17bede1603276f82f77b3d11a03290abb70e471629469e03486a38",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/model.py": {
+      "sha256_at_retirement": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+      "git_blob_sha1": "23c6219635803fcac0fefdca1429a773ea491e4c",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+      "historical_zip_sha256": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/outcome_train.py": {
+      "sha256_at_retirement": "7d24dd8dd9fb06198d62e75a5784f21e0f1dedb495c567ad9ed9c4178a339e60",
+      "git_blob_sha1": "86a398078fa104f2c55085233132ff1cd39ff136",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "7d24dd8dd9fb06198d62e75a5784f21e0f1dedb495c567ad9ed9c4178a339e60",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/panel_budget.py": {
+      "sha256_at_retirement": "f7d3a3d5ec66c0571fa3601a26e45d79077016df2e5cac751d73e836d9b2bb76",
+      "git_blob_sha1": "7c4247ba3dfcbc3f567b6f0f56f41f32021dd2bf",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "f7d3a3d5ec66c0571fa3601a26e45d79077016df2e5cac751d73e836d9b2bb76",
+      "historical_zip_sha256": "f7d3a3d5ec66c0571fa3601a26e45d79077016df2e5cac751d73e836d9b2bb76",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/policy.py": {
+      "sha256_at_retirement": "13e70a6e35ac1b3027080e992b64bec66527748ddc21dbabc98ea6e1165a9027",
+      "git_blob_sha1": "0459984ee18645b3b8e9d15e1edaf4fc050a7630",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "13e70a6e35ac1b3027080e992b64bec66527748ddc21dbabc98ea6e1165a9027",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/pool.py": {
+      "sha256_at_retirement": "57e5dad528799512c06389018294a182174e62993129d8120d1c1546e40dcafb",
+      "git_blob_sha1": "4dc1087412366a14f66be6fec22fca7992935378",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "57e5dad528799512c06389018294a182174e62993129d8120d1c1546e40dcafb",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/population_train.py": {
+      "sha256_at_retirement": "3860f9447ccc43b7e1c91f991478c0ccd48c304ec2515c0bc400686d2a01927e",
+      "git_blob_sha1": "484455d305b3de3b26dcfa0fcb3ac08595660119",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/quick_test.py": {
+      "sha256_at_retirement": "f7cd04dab9a5e95300e42f9e7b5e36171b06cf23de8518c2c8a2c30f471f4b78",
+      "git_blob_sha1": "e6832f39b39020f25d9764d084dfdfdee0ab9bc1",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "f7cd04dab9a5e95300e42f9e7b5e36171b06cf23de8518c2c8a2c30f471f4b78",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/six_styles.py": {
+      "sha256_at_retirement": "965ce06bcf9e37ea0e9b8324878c10ff0f35f2ce4451b37b583f88eaa070f943",
+      "git_blob_sha1": "51ede17362dbd0dfb6fd9c9a89b27aff301dd7f9",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/six_train.py": {
+      "sha256_at_retirement": "d8052bc02b17f1eb8228eeafb4ea4741082d9b49b4a3e025982df710eced0092",
+      "git_blob_sha1": "9ac93315d2e84658e29deed6b46bde8a962bc3a1",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/strict.py": {
+      "sha256_at_retirement": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+      "git_blob_sha1": "d9fb938f05845389f0828b2623d310aba3925552",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+      "historical_zip_sha256": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/test_blood_poison_startup.py": {
+      "sha256_at_retirement": "6fa7d9aa3d39110f90b7dc0e885471df285820e5a71fa898cf9b591e62b34d14",
+      "git_blob_sha1": "5fba14405498111523deb25cc8edad4278a515bc",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "6fa7d9aa3d39110f90b7dc0e885471df285820e5a71fa898cf9b591e62b34d14",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_current.py": {
+      "sha256_at_retirement": "803b6f3393f4845a242c62348316b2714c60563234a034edffaaf8a93ae573e8",
+      "git_blob_sha1": "335ee9ca90a0f0355018835e63d1619af3a3deaf",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "803b6f3393f4845a242c62348316b2714c60563234a034edffaaf8a93ae573e8",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_early_deletion.py": {
+      "sha256_at_retirement": "ffa4954ad853b4ba210cf618898c5754689b8bc43d1cadebb8505318a1c6472b",
+      "git_blob_sha1": "865a721681eb923b19f0a38b2f099da70c1850ac",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "9918e0de76c684e0882aaebc5fae20c8d28b04512b12b32b503752013abd1ae0",
+      "zip_matches_retired_source": false,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_economy.py": {
+      "sha256_at_retirement": "a0574f0c591d71d6f412632ad522983acee4cc263de52d7afc198afcf1dd8ab9",
+      "git_blob_sha1": "6871f8d1233cb76ac5d52b27270972cd292c4f99",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "cf17f313aec2e79078dbbaf1e7e8ca420ae78dbc9974ddbfffdd6957d189e348",
+      "zip_matches_retired_source": false,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_element_paired_train.py": {
+      "sha256_at_retirement": "ee0de4f3de492eb3b2b156cf3e4bebddffbd70e7d77b2c99d986476d02ce6784",
+      "git_blob_sha1": "ba7a0f3f5c89d2a75f3a8ef581dc830c371147da",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_element_train.py": {
+      "sha256_at_retirement": "e3a30562222b4918ae2aae89b10f91eaf37afe0d281eb57a72298ba5b0c38a81",
+      "git_blob_sha1": "3ee358a2126dda49cdb62b9e8e95399b49568a8e",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "e3a30562222b4918ae2aae89b10f91eaf37afe0d281eb57a72298ba5b0c38a81",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_exploration.py": {
+      "sha256_at_retirement": "f1fdf96ebddbebb4851b0cb84372a82efaab7a5018e25fc190814176a0bfe389",
+      "git_blob_sha1": "8d4163974ae95da9a9981e115a17625e3c6c0470",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "f1fdf96ebddbebb4851b0cb84372a82efaab7a5018e25fc190814176a0bfe389",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_fatigue.py": {
+      "sha256_at_retirement": "8e3ce4e0a5790f1c1e1f275b6622122a201e6ffb9e8ad29f15f873ec4bac1ebd",
+      "git_blob_sha1": "99043875cb2d4e1345fb30ffe132ad103eb3d669",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "8e3ce4e0a5790f1c1e1f275b6622122a201e6ffb9e8ad29f15f873ec4bac1ebd",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_fire_enchantment_fix.py": {
+      "sha256_at_retirement": "5ca37c78e077357e619c58b04d1e2e119c01861199ac3a48c4446c0df6e1dcb7",
+      "git_blob_sha1": "1d77d3efe9872c419d52e0c7394757bbb44be3d2",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_freeze_contract.py": {
+      "sha256_at_retirement": "7ce801b678ad134423ecaa1209fcf58a63a81c18ec5f469500955f8d6037f423",
+      "git_blob_sha1": "369bed828edc57917b6189f0b99c0d0bb4beec96",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "7ce801b678ad134423ecaa1209fcf58a63a81c18ec5f469500955f8d6037f423",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_latest_cards.py": {
+      "sha256_at_retirement": "8d4b966304f5eb668af0c3d8009738e7dfd1306e4de1c821fd7a51dae22c29b6",
+      "git_blob_sha1": "2244358caf768a146c6263e4f9da7f3ab8832e41",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "8d4b966304f5eb668af0c3d8009738e7dfd1306e4de1c821fd7a51dae22c29b6",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_outcome_train.py": {
+      "sha256_at_retirement": "2825a4bab699fa6229d1714cf7b55b77266395c917ed212bbd139e8810ef1276",
+      "git_blob_sha1": "50a227cadc4ca331ddf0b6f2baf1f4b701477ca6",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "2825a4bab699fa6229d1714cf7b55b77266395c917ed212bbd139e8810ef1276",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_panel_budget.py": {
+      "sha256_at_retirement": "182787a24dbe5fe3f55da6a290e21004e19e9da1799600ae06e33041334bbfce",
+      "git_blob_sha1": "ee00a7bef828559bc972a3ad3b4413694559ac6a",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "182787a24dbe5fe3f55da6a290e21004e19e9da1799600ae06e33041334bbfce",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_poison_specialization_rollback.py": {
+      "sha256_at_retirement": "9dccd4c683e40e06827b1a424321c3b17b3e8928bf1cc6fc4c418cbcb34de96f",
+      "git_blob_sha1": "9447d653482e239049d6985f581ac9c238e78640",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "9dccd4c683e40e06827b1a424321c3b17b3e8928bf1cc6fc4c418cbcb34de96f",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_route_balance.py": {
+      "sha256_at_retirement": "334542d9c500cd0aa08b77db0d7efa03581f215cf6bd5404dcbc21455d89ac56",
+      "git_blob_sha1": "3a8a78d73506c8de47abe8a09b16f2b5c8c2a38f",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "334542d9c500cd0aa08b77db0d7efa03581f215cf6bd5404dcbc21455d89ac56",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_shield_fire_tuning.py": {
+      "sha256_at_retirement": "cdc361feafb3ed6e0d8d44624b41e9452ed529d015b7fc642d3d67e247cabdd9",
+      "git_blob_sha1": "eff42572ba993e6827539026ccd6f0a68d0f89f5",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "cdc361feafb3ed6e0d8d44624b41e9452ed529d015b7fc642d3d67e247cabdd9",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_shield_poison_tuning.py": {
+      "sha256_at_retirement": "47d06a5a9be97dfb58aeba9e3deb60bf21dfcff8ed2789dea55d32d462349a54",
+      "git_blob_sha1": "cfd831a87235d3400fdf52e57cca4bb178c12d0d",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "47d06a5a9be97dfb58aeba9e3deb60bf21dfcff8ed2789dea55d32d462349a54",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_six_styles.py": {
+      "sha256_at_retirement": "c48c0869fc4880b11e6b26f1798f787dc21053ff6a03d59beddf977a921fc1fc",
+      "git_blob_sha1": "aa9c27fcd9ea2d415113e1903523c296bf9d7700",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_spring_refinement.py": {
+      "sha256_at_retirement": "84583c08161396121cb339748340480b6fda8e1fc58c3b52b95ebd0b6285a0d5",
+      "git_blob_sha1": "5c31807a207336392cd2f30e4cb015ae9fb3d186",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "84583c08161396121cb339748340480b6fda8e1fc58c3b52b95ebd0b6285a0d5",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_temporary_additive.py": {
+      "sha256_at_retirement": "6fb3387fc8f8fd0b9f4e1d8211300cfb834adf472c7c07f9bcfd8e7217b2cb3d",
+      "git_blob_sha1": "908fc43859fd57cbfcc9dbc8df70ad95867a387a",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "6fb3387fc8f8fd0b9f4e1d8211300cfb834adf472c7c07f9bcfd8e7217b2cb3d",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_user_earth_edits.py": {
+      "sha256_at_retirement": "5cf8a215e5d058a2810aca39e7526ac04672026dc07739dfcc9190c8c8982a32",
+      "git_blob_sha1": "77bfc418c711ee51726681c36ecb95c696ac5f29",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "5cf8a215e5d058a2810aca39e7526ac04672026dc07739dfcc9190c8c8982a32",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_user_mixed_edits.py": {
+      "sha256_at_retirement": "ea849b17a114c65a9d90cf2569c6b74df8584d1a13b551c96da656bf5da40f95",
+      "git_blob_sha1": "1b14666d9d5cd176183aed245f0144ff9ff86536",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "ea849b17a114c65a9d90cf2569c6b74df8584d1a13b551c96da656bf5da40f95",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_user_water_poison_edits.py": {
+      "sha256_at_retirement": "bf4379e755c95d2cd0de1f50383e7fe51853d42e7301471d449d8dc6c81e012a",
+      "git_blob_sha1": "07fee594336ae7acd867bd2cf6b1492a35cca22d",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "bf4379e755c95d2cd0de1f50383e7fe51853d42e7301471d449d8dc6c81e012a",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_water_earth.py": {
+      "sha256_at_retirement": "15a9701157b9804e6fbb4c0166fd7c92f414a461871c56a9fbc8ebf3ea342b19",
+      "git_blob_sha1": "bc2ea2fe7da4bcdd824ea4b06013bb652d69ade8",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "15a9701157b9804e6fbb4c0166fd7c92f414a461871c56a9fbc8ebf3ea342b19",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_water_lifeonly.py": {
+      "sha256_at_retirement": "02a47d4dd4cf8740c653d4d5b318864be5a81fec63ca12afc7925560d846f4b8",
+      "git_blob_sha1": "aca5b0d281da9a028c5c6275324921ed6442737e",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "02a47d4dd4cf8740c653d4d5b318864be5a81fec63ca12afc7925560d846f4b8",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_wind_ash_poison.py": {
+      "sha256_at_retirement": "ce8f6cc695f8a1d406e48ff4570ba8d7ab3967296a00a31b1cf01fc6685b57a5",
+      "git_blob_sha1": "65e1a4166b51b8c544dce158d1a8bbcfefc2db17",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "ce8f6cc695f8a1d406e48ff4570ba8d7ab3967296a00a31b1cf01fc6685b57a5",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_wind_rebalance.py": {
+      "sha256_at_retirement": "71ac8c36246d9d785ca6d92ef0426ff4aacb42e4af46d65a6cb03d22456927bf",
+      "git_blob_sha1": "ae9ebd811cfec4f9cbf8ecd46431eac20cb87f5c",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "71ac8c36246d9d785ca6d92ef0426ff4aacb42e4af46d65a6cb03d22456927bf",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/thin_train.py": {
+      "sha256_at_retirement": "b5cb399951f36441829aa3456e55000a82205456e967183a45a34805f5dcdaf2",
+      "git_blob_sha1": "b4a5a1a93bc5d9d2d33664805e2cc1ecb5061f62",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "b5cb399951f36441829aa3456e55000a82205456e967183a45a34805f5dcdaf2",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/tournament.py": {
+      "sha256_at_retirement": "68f89d3cdb3b071fb81220a8dfbb75c587a698ce32ff72c5e5fa7d3f722ce104",
+      "git_blob_sha1": "bad23100a720d8f450f9364bffe9a4f365491f58",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "fb49397a897b9de62d1d2d6f70293bfa3d9dcdb87ec3121a2fd773279765fd0d",
+      "zip_matches_retired_source": false,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/train.py": {
+      "sha256_at_retirement": "a1dcfee911e61868c06ffe6bcf816259f09c64a8eaf90e976d71d0cf3020678d",
+      "git_blob_sha1": "70b220db91476fccd8c2df4fdf48bcf5a6b31a34",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": "a1dcfee911e61868c06ffe6bcf816259f09c64a8eaf90e976d71d0cf3020678d",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/verify_v12.py": {
+      "sha256_at_retirement": "0d3682392527bf7c309b9f1aae674bbe710d489d2a4971a6ca69d3a4d4eaa826",
+      "git_blob_sha1": "ed8c0d46f4d7b3c654b7adf9927d65e32601f158",
+      "git_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "old_freeze_expected_sha256": "0d3682392527bf7c309b9f1aae674bbe710d489d2a4971a6ca69d3a4d4eaa826",
+      "historical_zip_sha256": "0d3682392527bf7c309b9f1aae674bbe710d489d2a4971a6ca69d3a4d4eaa826",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    }
+  }
+}

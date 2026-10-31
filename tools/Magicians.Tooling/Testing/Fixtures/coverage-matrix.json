@@ -1,0 +1,829 @@
+{
+  "original_tests": 163,
+  "original_tests_passed_during_capture": 153,
+  "operation_replay_test_names": 112,
+  "operation_replay_cases": 1214,
+  "notes": [
+    "Not a source-to-source translation of unittest scaffolding: original battle inputs, RNG, outputs and operation return values are frozen data replayed by C#.",
+    "Monitored operation snapshots only run at actual/public method boundaries. Private planning/probe internals are checked by full locked commits and complete match reference fixtures.",
+    "Mocked wave suppression is explicitly reproduced by ReplayBattle; test fixtures contain no executable Python.",
+    "Training-policy assertions cover parameter independence, no hard caps, bounded updates, equal-scale objectives, paired validation and construction opportunity costs."
+  ],
+  "tests": [
+    {
+      "original_test": "tools.sim_v12.test_blood_poison_startup.BloodPoisonStartup.test_rollback_activation_never_grants_poison_across_replay_and_second_instance",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_blood_poison_startup.BloodPoisonStartup.test_rollback_planning_cannot_invent_initial_poison_or_enable_extra_draw",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_blood_poison_startup.BloodPoisonStartup.test_same_position_cleanse_preserves_new_poison_and_unreached_tail_has_none",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_blood_poison_startup.BloodPoisonStartup.test_blood_protection_reads_current_life_after_payment",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_current_inventory_and_all_card_dispatch",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_all_cards_execute_both_resource_contexts",
+      "recorded_operations": 366,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_earth_execute_spends_shield_and_consumes_existing_guard",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_new_guard_does_not_protect_current_position",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_new_shield_does_not_absorb_current_position",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_source_panels_and_first_layers_are_not_in_own_effect",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_own_gain_then_consume_retains_explicit_card_order",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_old_shield_decay_and_new_shield_are_distinguished",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_new_heal_cannot_save_same_position_lethal_damage",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_new_revive_cannot_save_same_position_death",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_existing_revive_truncates_tail_and_keeps_private_prefix",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_poison_merge_keeps_new_layers",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_promised_draw_is_not_lost_at_full_health",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_revealed_topdeck_tracker_never_reads_future_random_order",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_policy_does_not_read_unrevealed_deck_order",
+      "recorded_operations": 12,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_conditional_wind_fee_is_prepared_before_tailwind",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_discard_prefers_unaffordable_filler_to_live_engine",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_new_generic_ability_has_nonzero_mechanism_utility",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_pierce_is_retired_from_effects_and_ai",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_retained_cards_and_storm_numeric_change",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_retained_wind_cleanse_clears_poison_and_heals",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_recycling_does_not_repeat_first_layers",
+      "recorded_operations": 316,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_removed_legendary_components_are_absent",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_thin_policy_can_skip_a_free_low_value_card",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_cycle_nerf_deleted_cards_have_no_runtime_references",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_abyss_and_storm_cost_three_and_keep_effects",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_mountain_wall_keeps_first_layer_and_repeats_only_shield_growth",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_melt_shield_adds_with_repeats_and_other_shield_damage",
+      "recorded_operations": 8,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_structure_new_shields_use_additive_bonus",
+      "recorded_operations": 10,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_slow_poison_adds_with_repeats_and_route_and_preserves_progress",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_flow_five_percent_adds_with_repeats_and_interval_increase",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_current.CurrentTests.test_selected_three_cost_growth_panels_use_rare_eighty_percent",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_early_deletion.EarlyDeletionTests.test_current_phase_boundaries",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_early_deletion.EarlyDeletionTests.test_runtime_deletion_actually_charges_and_obeys_limits",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_early_deletion.EarlyDeletionTests.test_instant_combat_examples_use_high_numeric_budget",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_early_deletion.EarlyDeletionTests.test_war_intent_and_unselected_persistent_growth_stay_unchanged",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_economy.IncomeTests.test_actual_simulator_income_through_round_100",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_economy.IncomeTests.test_published_and_live_configuration_are_identical",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_element_paired_train.PairedTrainingTests.test_identical_focal_outcomes_have_zero_delta",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_element_paired_train.PairedTrainingTests.test_comparison_uses_focal_outcomes_and_reverses_sign",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_element_paired_train.PairedTrainingTests.test_missing_pair_is_rejected",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_element_train.ElementTrainingTests.test_distinct_profiles_keep_independent_weights",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_element_train.ElementTrainingTests.test_element_and_route_intentions_do_not_make_other_cards_valuable",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_element_train.ElementTrainingTests.test_larger_deck_bonus_affects_both_buy_and_delete_softly",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_no_target_length_or_size_cap_parameter",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_elemental_weights_are_small_and_do_not_mutate_config",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_price_opportunity_and_delete_fees_are_counted",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_medium_restart_encourages_useful_purchase_and_saves_delete_points",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_medium_restart_keeps_battle_weights_frozen_and_has_no_size_cap",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_role_preferences_change_construction_without_mutating_battle_weights",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_exploration.ExplorationTests.test_dual_initializations_retain_distinct_soft_preferences",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fatigue.FatigueTests.test_fatigue_begins_at_1200_not_before",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fatigue.FatigueTests.test_fatigue_uses_current_health_and_rounds_up",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fatigue.FatigueTests.test_fatigue_retains_existing_guard_and_shield_reactions",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fatigue.FatigueTests.test_published_combat_config_matches_runtime",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fire_enchantment_fix.FireClassificationTests.test_all_fire_cards_are_enchantments",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fire_enchantment_fix.FireClassificationTests.test_ember_draw_discount_for_every_fire_card",
+      "recorded_operations": 62,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_fire_enchantment_fix.FireClassificationTests.test_fire_ability_consumes_element_discount_and_counts",
+      "recorded_operations": 8,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_freeze_contract.FreezeContract.test_guard_allows_exact_snapshot_and_rejects_drift",
+      "recorded_operations": 0,
+      "native_replacement": "GuardRegression isolated temporary snapshot/Markdown/model mutations; rejects corrupt bytes and changed source"
+    },
+    {
+      "original_test": "tools.sim_v12.test_freeze_contract.FreezeContract.test_guard_rejects_corrupt_release_snapshot",
+      "recorded_operations": 0,
+      "native_replacement": "GuardRegression isolated temporary snapshot/Markdown/model mutations; rejects corrupt bytes and changed source"
+    },
+    {
+      "original_test": "tools.sim_v12.test_freeze_contract.FreezeContract.test_pending_draw_and_energy_use_counter_addition",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_freeze_contract.FreezeContract.test_grip_uses_launch_layers_for_all_recorded_losses",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_freeze_contract.FreezeContract.test_still_water_repeated_rewards_consume_on_one_effective_heal",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_freeze_contract.FreezeContract.test_trickle_repeated_rewards_share_one_actual_card_payment",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_latest_cards.LatestCards.test_bone_no_longer_doubles_decay_but_retains_last_layer",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_latest_cards.LatestCards.test_chain_tide_heals_without_followup",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_latest_cards.LatestCards.test_wind_cleanse_counts_types_and_poison_without_double_debuff",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_latest_cards.LatestCards.test_dual_penetration_is_next_main_only",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_latest_cards.LatestCards.test_core_heal_and_blood_lifesteal_rates",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_latest_cards.LatestCards.test_retired_cards_absent_and_discard_rewards",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_outcome_train.OutcomeTests.test_neutral_start_retains_mechanisms_and_removes_preferences",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_outcome_train.OutcomeTests.test_updates_are_bounded_without_reintroducing_size_or_roles",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_outcome_train.OutcomeTests.test_reward_components_have_equal_scale_and_swap_sign",
+      "recorded_operations": 0,
+      "native_replacement": "PolicyRegression explicit invariants plus TrainingCommands fixed proposal/statistics/simulation differential probe"
+    },
+    {
+      "original_test": "tools.sim_v12.test_panel_budget.PanelAndDamageTests.test_selected_permanent_budget_uses_rare_reference_and_preserves_abyss",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_panel_budget.PanelAndDamageTests.test_every_card_uses_uniform_rarity_and_role_budget",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_panel_budget.PanelAndDamageTests.test_strong_precedence_covers_conditional_draw_and_discount",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_panel_budget.PanelAndDamageTests.test_recalibrated_panels_are_applied_by_runtime",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_panel_budget.PanelAndDamageTests.test_published_damage_matches_runtime_and_late_rounds_unchanged",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_panel_budget.PanelAndDamageTests.test_actual_loss_boundaries_and_draws_and_wins",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_poison_specialization_rollback.PoisonSpecializationRollback.test_dynamic_point_five_defense_reduction_floors_clamps_and_clears",
+      "recorded_operations": 6,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_poison_specialization_rollback.PoisonSpecializationRollback.test_bone_override_stays_one_point_two_and_point_nine",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_fire_layers_apply_new_final_damage_rates_to_all_source_packets",
+      "recorded_operations": 16,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_wind_true_sub_is_last_and_detonates_marks_from_every_earlier_sub",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_blood_tide_surge_forty_percent_boundary",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_earth_grip_uses_recorded_decay_loss",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_bastion_reflects_two_percent_per_layer",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_wind_layer_gap_and_activation_are_separate",
+      "recorded_operations": 8,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_poison_damage_and_dynamic_debuff",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_poison_growth_counts_actual_changes_both_directions",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_fire_bloodline_and_blood_tide_packets",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_wind_marks_sum_and_true_sub_are_separate",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_echo_refunds_fifteen_percent_of_actual_spent_tide",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_echo_healing_records_seven_percent_per_water_layer",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_grip_scales_with_current_earth_layers",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_ash_rewards_cap_across_multiple_ember_consumptions",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_blood_tide_protection_is_dynamic_and_only_against_main_missiles",
+      "recorded_operations": 10,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_spring_penetrates_shields_not_defense_and_stacks_with_wind",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_wind_blade_extra_gap_scales_with_layers",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_bastion_no_longer_tops_shields_or_grants_future_energy",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_poison_tide_consumption_cap_and_multiplier_exclude_erosion",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_route_balance.RouteBalanceTests.test_erosion_current_hp_bonus_scales_with_both_layer_counts",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_fire_tuning.ShieldFireTuning.test_two_cost_rare_direct_shields_and_mountain_branches",
+      "recorded_operations": 6,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_fire_tuning.ShieldFireTuning.test_rebound_armor_grants_100_and_returns_30_on_enemy_break",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_fire_tuning.ShieldFireTuning.test_fire_gates_read_pre_position_layers_and_fuse_bonus",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_fire_tuning.ShieldFireTuning.test_cloud_armor_break_applies_six_to_main_sub_and_true_sub",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_poison_tuning.ShieldPoisonTuning.test_rock_armor_reads_effective_pre_card_defense_and_rounds",
+      "recorded_operations": 6,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_poison_tuning.ShieldPoisonTuning.test_mountain_body_consumes_real_total_shields_up_to_150",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_shield_poison_tuning.ShieldPoisonTuning.test_topdeck_shield_is_40_with_or_without_legal_target_and_stone_is_100",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_six_styles.SixStyleTests.test_all_six_and_flexible_intent_boundary",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_six_styles.SixStyleTests.test_corrupt_policy_is_rejected",
+      "recorded_operations": 0,
+      "native_replacement": "GuardRegression isolated temporary snapshot/Markdown/model mutations; rejects corrupt bytes and changed source"
+    },
+    {
+      "original_test": "tools.sim_v12.test_six_styles.SixStyleTests.test_unknown_style_rejected",
+      "recorded_operations": 0,
+      "native_replacement": "StaticRegression explicit values/boundaries/policy constraints + FoundationRegression data/RNG guards"
+    },
+    {
+      "original_test": "tools.sim_v12.test_spring_refinement.SpringRefinement.test_gap_activation_layers_and_minimum",
+      "recorded_operations": 12,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_spring_refinement.SpringRefinement.test_penetration_applies_to_main_and_sub_without_multiplying_tide",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_bonus_order_independent_and_conditional_components_add",
+      "recorded_operations": 12,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_interval_temporary_permanent_and_element_add_with_floor",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_penetration_adds_then_caps_and_resets",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_attack_adds_and_main_only_buff_does_not_leak_to_sub",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_direct_sources_and_duplicate_cards_add",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_strip_percentages_share_one_basis_and_cap",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_armor_break_repeats_per_hit_without_changing_panel",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_locked_sequence_preserves_additive_commit",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_next_card_discounts_add_consistently",
+      "recorded_operations": 6,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_temporary_additive.TemporaryAdditive.test_remaining_numeric_next_event_buffs_add",
+      "recorded_operations": 8,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_earth_edits.UserEarthEdits.test_spaced_markdown_tables_load_without_changing_identity",
+      "recorded_operations": 0,
+      "native_replacement": "GuardRegression isolated temporary snapshot/Markdown/model mutations; rejects corrupt bytes and changed source"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_earth_edits.UserEarthEdits.test_new_shield_amounts_and_pulse",
+      "recorded_operations": 14,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_earth_edits.UserEarthEdits.test_stone_mark_mixes_ordinary_decay_and_conditional_temporary_shield",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_earth_edits.UserEarthEdits.test_mountain_body_consumes_by_one_point_five_and_obeys_caps",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_mixed_edits.UserMixedEdits.test_echo_cost_two_is_affordable_and_panel_is_within_budget",
+      "recorded_operations": 1,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_mixed_edits.UserMixedEdits.test_new_healing_uses_actual_loss_and_caps_recorded_tide",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_mixed_edits.UserMixedEdits.test_heavy_shatter_120_and_actual_consumption_return_thirty_percent",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_mixed_edits.UserMixedEdits.test_earth_direct_records_twenty_percent_and_grip_uses_eighty_shield",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_water_poison_edits.UserWaterPoisonEdits.test_active_water_and_poison_values",
+      "recorded_operations": 3,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_water_poison_edits.UserWaterPoisonEdits.test_abyss_discrete_real_consumption_growth",
+      "recorded_operations": 9,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_water_poison_edits.UserWaterPoisonEdits.test_pierce_uses_actual_shot_tide_boundary",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_user_water_poison_edits.UserWaterPoisonEdits.test_kuchao_applies_two_then_locks_branches_once",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_water_earth.WaterEarth.test_flat_tide_coefficients_and_conditional_branches",
+      "recorded_operations": 8,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_water_earth.WaterEarth.test_earth_base_and_enhanced_burst_coefficients",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_water_earth.WaterEarth.test_spring_gap_and_water_lifesteal_override",
+      "recorded_operations": 6,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_water_lifeonly.WaterLifeOnly.test_water_heals_life_only_with_overkill_cap_and_heal_block",
+      "recorded_operations": 15,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_water_lifeonly.WaterLifeOnly.test_actual_healing_records_six_or_ten_percent_per_layer",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_water_lifeonly.WaterLifeOnly.test_core_main_threshold_140_includes_shield_but_not_sub",
+      "recorded_operations": 6,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_ash_poison.WindAshPoison.test_blood_uses_common_lifesteal_and_never_heals_shield_damage",
+      "recorded_operations": 8,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_ash_poison.WindAshPoison.test_submissile_values_and_conditional_marks",
+      "recorded_operations": 10,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_ash_poison.WindAshPoison.test_arrow_ignore_multiplies_penetration_and_strip_requires_actual_shield",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_ash_poison.WindAshPoison.test_ash_three_reward_cap_resets_without_carrying_overflow",
+      "recorded_operations": 4,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_rebalance.WindRebalance.test_submissile_card_text_and_runtime_match_for_each_card",
+      "recorded_operations": 5,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_rebalance.WindRebalance.test_combo_gap_boundary_uses_post_card_delay_and_fifty_percent_attack",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_rebalance.WindRebalance.test_real_corridor_hits_before_true_sub_and_full_mark_detonation",
+      "recorded_operations": 2,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.sim_v12.test_wind_rebalance.WindRebalance.test_structure_boosts_new_shields_additively_without_boosting_old",
+      "recorded_operations": 7,
+      "native_replacement": "BusinessReplay immutable operation snapshots and exact method return/state comparison"
+    },
+    {
+      "original_test": "tools.client_v12.test_bridge.BridgeTests.test_fifteen_routes_match_native_results_and_events",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_bridge.BridgeTests.test_catalog_exact",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_bridge.BridgeTests.test_replay_private_and_invalid_input",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_bridge.BridgeTests.test_every_card_through_client_decisions",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_match.MatchTests.test_automatic_zero_or_single_selection",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_match.MatchTests.test_one_point_refresh_is_legal_and_charged",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_match.MatchTests.test_zero_energy_keeps_free_card_legal",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_match.MatchTests.test_delegated_full_tournament_equals_native",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_match.MatchTests.test_manual_buy_and_invalid_command_are_transactional",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    },
+    {
+      "original_test": "tools.client_v12.test_match.MatchTests.test_manual_round_battle_and_spectator_to_champion",
+      "recorded_operations": 0,
+      "native_replacement": "ProtocolRegression + 27 frozen full request responses + 7 full frozen sessions + 366 rich card snapshots; whole-card bridge injection replaced by public core/JSON protocol layers"
+    }
+  ]
+}
